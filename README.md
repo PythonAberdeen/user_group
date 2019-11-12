@@ -11,9 +11,9 @@ Here are a list of challenge projects by month in reverse order
 Write a Python program which iterates the integers from 1 to 50. For multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
 
 ### Level 2
-Have the user enter a 3-letter IATA code for an Airport (e.g LHR) and output the full name of the airport. You can get a list [here](https://www.world-airport-codes.com/world-top-30-airports.html)
-Check that the input is three letters long. 
-Hint - think about how you validate input, and what data structure you would use to store the code / name. 
+Have the user enter a 3-letter IATA code for an Airport (e.g LHR) and output the full name of the airport. You can get a list of the top 30  [here](https://www.world-airport-codes.com/world-top-30-airports.html)
+Check that the input is three letters long - if not handle the error. 
+Hint - think about how you validate input (length and case), and what data structure you would use to store the code / name. 
 
 
 ### Level 3
