@@ -25,4 +25,4 @@ See this ([specification](https://wiki.openstreetmap.org/wiki/Key:opening_hours)
 It doesn't sound super advanced but it's kinda tricky when you get into handling errors an corner-cases and optimizing.
 
 ## October 2019
-* Build a finctioning game of Hangman
+* Build a functioning game of Hangman
