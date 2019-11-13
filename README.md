@@ -1,5 +1,5 @@
 # Challenge Projects
-Here are a list of challenge projects by month in reverse order
+Here are a list of challenge projects by month in reverse order. Click month to show projects.
 
 <details>
   <summary>November 2019</summary>
