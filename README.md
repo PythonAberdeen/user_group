@@ -4,7 +4,6 @@ repo for the Python User Group meetings
 # Challenge Projects
 Here are a list of challenge projects by month in reverse order
 
-
 ## November 2019
 
 ### Level 1
@@ -24,5 +23,9 @@ See this ([specification](https://wiki.openstreetmap.org/wiki/Key:opening_hours)
 
 It doesn't sound super advanced but it's kinda tricky when you get into handling errors an corner-cases and optimizing.
 
-## October 2019
+<details>
+  <summary>## October 2019</summary>
+  
 * Build a functioning game of Hangman
+
+</details>
