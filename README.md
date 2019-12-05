@@ -1,6 +1,21 @@
 # Challenge Projects
 Here are a list of challenge projects by month in reverse order. Click month to show projects.
 
+details>
+  <summary>December 2019</summary>
+
+## Level 1
+tbc
+
+## Level 2
+tbc
+
+
+## Level 3
+tbc
+
+</details>
+
 <details>
   <summary>November 2019</summary>
 
