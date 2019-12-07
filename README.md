@@ -5,6 +5,9 @@ Here are a list of challenge projects by month in reverse order. Click month to 
   <summary>December 2019</summary>
 
 ## Level 1
+tbc
+
+## Level 2
 
 ### Problem
 
@@ -45,10 +48,6 @@ Write a function which finds the final number (the bottom corner) given an input
     f([2, 2, 0, 1, 1, 0, 0, 1, 0, 1]) = 0
 
 How efficient can you make this? You have a short-cut for some sizes of triangle, can you use this to speed up computation of other sizes?
-
-## Level 2
-tbc
-
 
 ## Level 3
 tbc
