@@ -5,7 +5,38 @@ Here are a list of challenge projects by month in reverse order. Click month to 
   <summary>December 2019</summary>
 
 ## Level 1
-tbc
+
+The Fibonacci sequence is defined by the following rule:
+
+    F(1) = 1
+    F(2) = 1
+    F(n) = F(n-1) + F(n-2)
+
+or, the next term is the sum of the previous two,
+
+    1, 2, 3, 5, 8, 13, ...
+
+Write a function which takes an integer "n" and outputs the n'th number in the Fibonacci sequence
+
+For example:
+
+    F(6) = 13
+
+### Ideas for Enhancment
+
+There are multiple different ways to implement this, have you tried at least two different ways?
+
+Try printing out the sequence, and see how long it takes to print 1000 terms
+
+    1
+    2
+    3
+    5
+    8
+    13
+    ...
+
+Can you modify the program to print the Tribonaci sequence (first 3 terms are `1` and the next term is the sum of the previous 3 terms) or n-bonaci sequence (first n terms are `1` and the next term is the sum of the previous n terms).
 
 ## Level 2
 tbc
