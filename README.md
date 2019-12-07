@@ -6,6 +6,8 @@ Here are a list of challenge projects by month in reverse order. Click month to 
 
 ## Level 1
 
+### Problem
+
 The Fibonacci sequence is defined by the following rule:
 
     F(1) = 1
@@ -39,7 +41,35 @@ Try printing out the sequence, and see how long it takes to print 1000 terms
 Can you modify the program to print the Tribonaci sequence (first 3 terms are `1` and the next term is the sum of the previous 3 terms) or n-bonaci sequence (first n terms are `1` and the next term is the sum of the previous n terms).
 
 ## Level 2
-tbc
+
+### Problem
+
+This problem is based on a Python Morsels exercise.
+
+Write a function that accepts a string and returns a mapping (a dictionary or dictionary-like structure) that has words as the keys and the number of times each word was seen as the values.
+
+Your function should work like this:
+
+    >>> count_words("oh what a day what a lovely day")
+    {'oh': 1, 'what': 2, 'a': 2, 'day': 2, 'lovely': 1}
+    >>> count_words("don't stop believing")
+    {"don't": 1, 'stop': 1, 'believing': 1}
+
+### Ideas for Enhancment
+
+As a bonus, make sure your function works well with mixed case words:
+
+    >>> count_words("Oh what a day what a lovely day")
+    {'oh': 1, 'what': 2, 'a': 2, 'day': 2, 'lovely': 1}
+
+For even more of a bonus try to get your function to ignore punctuation outside of words:
+
+    >>> count_words("Oh what a day, what a lovely day!")
+    {'oh': 1, 'what': 2, 'a': 2, 'day': 2, 'lovely': 1}
+
+Try loading text from a file and counting it's works. Have your function accept either a string, or a file.
+
+Try scraping text from a web page (Try `requests` and `beautifulsoup` libraries), and counting the words there.
 
 ## Level 3
 
