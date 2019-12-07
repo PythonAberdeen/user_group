@@ -4,7 +4,7 @@ Here are a list of challenge projects by month in reverse order. Click month to 
 <details>
   <summary>December 2019</summary>
 
-## Level 1
+## Level 1 - Fibonacci Sequence
 
 ### Problem
 
@@ -43,7 +43,7 @@ Try modifying your Fibonacci function to produce the [bi-directional sequence](h
 
 Can you modify the program to print the Tribonaci sequence (first 3 terms are `1` and the next term is the sum of the previous 3 terms) or n-bonaci sequence (first n terms are `1` and the next term is the sum of the previous n terms).
 
-## Level 2
+## Level 2 - Search Engine Index
 
 ### Problem
 
@@ -82,9 +82,11 @@ Consider having your function remove [stop words](https://en.wikipedia.org/wiki/
     
 Given a list of website URLs, and a word (say `coding`) can you find which website is mentions the work the most?
 
-## Level 3
+## Level 3 - Pascalian Puzzle
 
 ### Problem
+
+This problem was inspired by a [Mathologer](https://www.youtube.com/watch?v=9JN5f7_3YmQ) video.
 
 Write a program which takes a list of integers 0, 1, and 2, and displays a triangle using the following rule: If two adjacent numbers are the same (e.g. 0 and 0), the number below will be the same (0), if two adjacent numbers are different (e.g. 2 and 0), the number below will be the other number (1), i.e.:
 
