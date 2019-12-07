@@ -25,6 +25,13 @@ For example:
     >>> F(6)
     13
 
+You can make your funciton return `0` for any non-positive numbers.
+
+    >>> F(0)
+    0
+    >>> F(-1)
+    0
+
 ### Ideas for Enhancment
 
 There are multiple different ways to implement this, have you tried at least two different ways?
