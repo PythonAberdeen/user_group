@@ -82,6 +82,8 @@ Consider having your function remove [stop words](https://en.wikipedia.org/wiki/
     
 Given a list of website URLs, and a word (say `coding`) can you find which website is mentions the work the most?
 
+What about a list of multiple words to search for?
+
 ## Level 3 - Pascalian Puzzle
 
 ### Problem
