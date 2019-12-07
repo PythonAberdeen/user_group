@@ -65,7 +65,19 @@ Have your function ignore case, and ignore punctuation outside of words:
 
 Try loading text from a file and counting it's works. Have your function accept either a string, or a file.
 
-Try scraping text from a web page (Try `requests` and `beautifulsoup` libraries), and counting the words there.
+Try scraping text from a web page (Try `requests` and `beautifulsoup` libraries), and counting the words there. But don't count the tags, only the text
+
+    <h>Hello World</h>
+    <p>"HELLO WORLD" is a fun program which makes coding fun!<p>
+
+    {"hello": 2, 'world': 2, 'is': 1, 'a': 1, 'fun': 2, 'program': 1, 'which': 1, 'makes': 1, 'coding': 1}
+
+Consider having your function remove [stop words](https://en.wikipedia.org/wiki/Stop_words)
+
+    <h>Hello World</h>
+    <p>"HELLO WORLD" is a fun program which makes coding fun!<p>
+
+    {"hello": 2, 'world': 2, 'fun': 2, 'coding': 1}
 
 ## Level 3
 
