@@ -22,7 +22,8 @@ Write a function which takes an integer "n" and outputs the n'th number in the F
 
 For example:
 
-    F(6) = 13
+    >>> F(6)
+    13
 
 ### Ideas for Enhancment
 
@@ -109,7 +110,8 @@ The length of the input here is `n = 10`. Did you notice that with this size of 
 
 Write a function which finds the final number (the bottom corner) given an input list. e.g.
 
-    f([2, 2, 0, 1, 1, 0, 0, 1, 0, 1]) = 0
+    >>> f([2, 2, 0, 1, 1, 0, 0, 1, 0, 1])
+    0
 
 How efficient can you make this? You have a short-cut for some sizes of triangle, can you use this to speed up computation of other sizes?
 
