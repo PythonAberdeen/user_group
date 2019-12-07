@@ -49,26 +49,19 @@ Can you modify the program to print the Tribonaci sequence (first 3 terms are `1
 
 This problem is based on a Python Morsels exercise.
 
-Write a function that accepts a string and returns a mapping (a dictionary or dictionary-like structure) that has words as the keys and the number of times each word was seen as the values.
+Write a function `count_words` that accepts a string and returns a `dict` or `Counter` that has the count of each word. e.g.
 
-Your function should work like this:
-
-    >>> count_words("oh what a day what a lovely day")
-    {'oh': 1, 'what': 2, 'a': 2, 'day': 2, 'lovely': 1}
-    >>> count_words("don't stop believing")
-    {"don't": 1, 'stop': 1, 'believing': 1}
+    >>> count_words("fun fun what fun is python")
+    {'fun': 3, 'what': 1, 'is': 1, 'python': 1}
+    >>> count_words("Don't stop coding in Python")
+    {"Don't": 1, 'stop': 1, 'coding': 1, 'in': 1, 'Python': 1}
 
 ### Ideas for Enhancment
 
-As a bonus, make sure your function works well with mixed case words:
+Have your function ignore case, and ignore punctuation outside of words:
 
-    >>> count_words("Oh what a day what a lovely day")
-    {'oh': 1, 'what': 2, 'a': 2, 'day': 2, 'lovely': 1}
-
-For even more of a bonus try to get your function to ignore punctuation outside of words:
-
-    >>> count_words("Oh what a day, what a lovely day!")
-    {'oh': 1, 'what': 2, 'a': 2, 'day': 2, 'lovely': 1}
+    >>> count_words("Don't stop coding in Python!")
+    {"don't": 1, 'stop': 1, 'coding': 1, 'in': 1, 'python': 1}
 
 Try loading text from a file and counting it's works. Have your function accept either a string, or a file.
 
