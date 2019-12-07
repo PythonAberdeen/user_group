@@ -5,7 +5,46 @@ Here are a list of challenge projects by month in reverse order. Click month to 
   <summary>December 2019</summary>
 
 ## Level 1
-tbc
+
+### Problem
+
+Write a program which takes a list of integers 0, 1, and 2, and displays a triangle using the following rule: If two adjacent numbers are the same (e.g. 0 and 0), the number below will be the same (0), if two adjacent numbers are different (e.g. 2 and 0), the number below will be the other number (1), i.e.:
+
+    0 + 0 = 0
+    0 + 1 = 2
+    1 + 1 = 1
+    1 + 2 = 0
+    2 + 2 = 2
+    0 + 2 = 1
+
+Example, given the input:
+
+    [2, 2, 0, 1, 1, 0, 0, 1, 0, 1]
+
+Print the triangle:
+
+    2 2 0 1 1 0 0 1 0 1
+     2 1 2 1 2 0 2 2 2
+      0 0 0 0 1 1 2 2
+       0 0 0 2 1 0 2
+        0 0 1 0 2 1
+         0 2 2 1 0
+          1 2 0 2
+           0 1 1
+            2 1
+             0
+
+The input example is length `n = 10` but can be any size.
+
+### Ideas for Enhancment
+
+The length of the input here is `n = 10`. Did you notice that with this size of input, the final number at the bottom of the tirangle (`0`) is always the result of combining the top two corners? This is true for a size 10 triangle, but not true for all sizes of triangle. What other sizes can you find that it works for?
+
+Write a function which finds the final number (the bottom corner) given an input list. e.g.
+
+    f([2, 2, 0, 1, 1, 0, 0, 1, 0, 1]) = 0
+
+How efficient can you make this? You have a short-cut for some sizes of triangle, can you use this to speed up computation of other sizes?
 
 ## Level 2
 tbc
