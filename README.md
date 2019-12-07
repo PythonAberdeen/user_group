@@ -47,12 +47,13 @@ Can you modify the program to print the Tribonaci sequence (first 3 terms are `1
 
 ### Problem
 
-This problem is based on a Python Morsels exercise.
+This problem is based on a previous exercise by [Python Morsels](https://www.pythonmorsels.com/).
 
 Write a function `count_words` that accepts a string and returns a `dict` or `Counter` that has the count of each word. e.g.
 
     >>> count_words("fun fun what fun is python")
     {'fun': 3, 'what': 1, 'is': 1, 'python': 1}
+
     >>> count_words("Don't stop coding in Python")
     {"Don't": 1, 'stop': 1, 'coding': 1, 'in': 1, 'Python': 1}
 
