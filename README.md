@@ -87,7 +87,7 @@ Write a program which takes a list of integers 0, 1, and 2, and displays a trian
 
 Example, given the input:
 
-    [2, 2, 0, 1, 1, 0, 0, 1, 0, 1]
+    >>> print_triangle([2, 2, 0, 1, 1, 0, 0, 1, 0, 1])
 
 Print the triangle:
 
@@ -102,18 +102,22 @@ Print the triangle:
             2 1
              0
 
+Write a function which finds the final number (the bottom corner) given an input list. e.g.
+
+    >>> get_last_number([2, 2, 0, 1, 1, 0, 0, 1, 0, 1])
+    0
+
 The input example is length `n = 10` but can be any size.
+
+The length of the input here is `n = 10`. Did you notice that with this size of input, the final number at the bottom of the tirangle (`0`) is always the result of combining the top two corners? This is true for a size 10 triangle, but not true for all sizes of triangle.
+
+What other sizes of triangle does this rule work for?
 
 ### Ideas for Enhancment
 
-The length of the input here is `n = 10`. Did you notice that with this size of input, the final number at the bottom of the tirangle (`0`) is always the result of combining the top two corners? This is true for a size 10 triangle, but not true for all sizes of triangle. What other sizes can you find that it works for?
-
-Write a function which finds the final number (the bottom corner) given an input list. e.g.
-
-    >>> f([2, 2, 0, 1, 1, 0, 0, 1, 0, 1])
-    0
-
 How efficient can you make this? You have a short-cut for some sizes of triangle, can you use this to speed up computation of other sizes?
+
+How efficient can you make this computation in terms of CPU time, memory? How large of a triangle can you compute the last row of in a reasonable amount of time?
 
 </details>
 
