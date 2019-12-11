@@ -1,7 +1,7 @@
 # Challenge Projects
 Here are a list of challenge projects by month in reverse order. Click month to show projects.
 
-<details>
+<details open>
   <summary>December 2019</summary>
 
 ## Level 1 - Fibonacci Sequence
