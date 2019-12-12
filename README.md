@@ -1,6 +1,6 @@
-# This Month's Challenge Projects
+# This Month's Challenge Problems
 
-<details open>
+<details>
   <summary>December 2019</summary>
 
 ## Level 1 - Fibonacci Sequence
