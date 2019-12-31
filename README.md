@@ -6,6 +6,7 @@
   TBC
 
 </details>
+
 # Previous Months' Challenge Problems
 
 <details>
