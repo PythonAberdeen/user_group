@@ -1,6 +1,14 @@
 # This Month's Challenge Problems
 
 <details>
+  <summary>January 2020</summary>
+  
+  TBC
+
+</details>
+# Previous Months' Challenge Problems
+
+<details>
   <summary>December 2019</summary>
 
 ## Level 1 - Fibonacci Sequence
@@ -136,8 +144,6 @@ How efficient can you make this? You have a short-cut for some sizes of triangle
 How efficient can you make this computation in terms of CPU time, memory? How large of a triangle can you compute the last row of in a reasonable amount of time?
 
 </details>
-
-# Previous Months' Challenge Problems
 
 <details>
   <summary>November 2019</summary>
