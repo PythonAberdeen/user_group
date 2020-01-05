@@ -1,4 +1,4 @@
-[Previous Months' Challenge Problems](/previous)
+Click the arrows below to view this month's challenge problems. You can also view [previous months](/previous).
 
 # January 2020
 
