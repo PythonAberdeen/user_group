@@ -13,7 +13,7 @@ A word beginning with a vowel e.g. 'apple' has '-way' appended, i.e. 'apple-way'
 
 A word beginning with a consonant e.g. 'banana' has the consonant moved to the end to form the suffix, i.e. 'anana-bay'
 
-   >>>to_pig_latin('aberdeen python')
+   >>> to_pig_latin('aberdeen python')
    'aberdeen-way ython-pay'
 
 ### Ideas for Enhancment
