@@ -1,8 +1,9 @@
 [Previous Months' Challenge Problems](/previous)
 
 # January 2020
-  
-## Level 1 - Pig Latin Translation
+
+<details>
+  <summary>Level 1 - Pig Latin Translation</summary>
 
 ### Problem
 
@@ -29,9 +30,15 @@ Implement a translation from Pig Latin back to English.
 
 Think about how to deal with ambiguity with the suffix 'way'. Should 'event-way' become 'event' or 'wevent'? Perhaps we need a dictionary?
 
-## Level 2 - TBC
+</details>
 
-## Level 3 - Bisection Method
+<details>
+  <summary>Level 2 - TBC</summary>
+
+</details>
+
+<details>
+  <summary>Level 3 - Bisection Method</summary>
 
 ### Problem
 
@@ -71,3 +78,5 @@ If `f(mid) < 0 < f(right)` or `f(mid) > 0 > f(right)`, then the solution is in `
 If `f(left) < 0 < f(mid)` or `f(left) > 0 > f(mid)`, then the solution is in `[left, mid]`, we continue using the `[mid, right]`, splitting this range in half again.
 
 We stop once the two end points of the range agree to dp decimal places, and return the value rounded to dp decimal places.
+
+</details>
