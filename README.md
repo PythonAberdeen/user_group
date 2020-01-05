@@ -41,11 +41,13 @@ Write a function:
     def bisection(f, left, right, dp):
         ...
 
-which returns the value of `x` (correct to dp decimal places) in the range `[left, right]` such that `f(x) = 0`.
+which returns the value of `x` (correct to `dp` decimal places) in the range `[left, right]` such that `f(x) = 0`.
 
-Example usage:
+You may assume that one of `f(left)` and `f(right)` is positive and the other is negative, and that `f` is a smooth continuous function (meaning the function crosses the x-axis at some point in the range `[left, right]`)
 
-We want to find a value x (to 6 d.p.) in the range [2.1, 2.3] such that x * e^(-x) - 0.25 = 0.
+### Example usage
+
+We want to find a value `x` (to `6` d.p.) in the range `[2.1, 2.3]` such that `x * e^(-x) - 0.25 = 0`.
 
     >>> import math
     >>> bisection(lambda x: x * math.exp(-x) - 0.25, 2.1, 2.3, 6)
@@ -54,8 +56,6 @@ We want to find a value x (to 6 d.p.) in the range [2.1, 2.3] such that x * e^(-
 The solution is 2.153292 (to 6 d.p.)
 
 The same function has a solution in between 0 and 1; find this other solution to 8 decimal places.
-
-You may assume that one of f(left) and f(right) is positive and the other is negative, and that f is a smooth continuous function, meaning the function crosses the x-axis at some point in the range [left, right].
 
 ### Hints
 
