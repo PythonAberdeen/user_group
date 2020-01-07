@@ -106,6 +106,6 @@ Try encrypting a large block or text, several paragraphs and saving it [in the G
 
 [`CYPHER2.txt`](/2020-01/level3/CYPHER2.txt) was encoded with an unknown key.
 
-Write a program to automatically detect and decrpty the key by explointing thayt fact that `E` is the most common letter in the English language. Have your program automatically crack the above file without a human having to guess and check keys.
+Write a program to automatically detect and decrypt the key by explointing the fact that `E` is the most common letter in the English language. Have your program automatically crack the above file without a human having to guess and check keys.
 
 </details>
