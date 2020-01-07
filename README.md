@@ -79,4 +79,18 @@ We stop once the two end points of the range agree to dp decimal places, and ret
 <details>
   <summary>Level 3 - ROT Cypher</summary>
 
+### Problem
+
+Write a program to encode plaintext using a rotation cypher. i.e. if the key is `5` then each character moves forward `5` places in the alphabet. (`A` -> `F`, and `Y` -> `D`)
+
+Input example:
+
+    >>> encypt('Python Aberdeen!', 5)
+    UDYMTS FGJWIJJS
+
+Have your program split 
+
+    >>> encypt('Python Aberdeen!', 5)
+    UDYMT SFGJW IJJS
+
 </details>
