@@ -93,4 +93,8 @@ Have your program split the output into chunks of a size you can choose (in the 
     >>> encypt('Python Aberdeen!', 5, 4)
     UDYM TSFG JWIJ JSXI
 
+[`CYPHER1.txt`](/2020-01/level3/CYPHER1.txt)
+
+[`CYPHER2.txt`](/2020-01/level3/CYPHER2.txt)
+
 </details>
