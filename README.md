@@ -33,12 +33,7 @@ Think about how to deal with ambiguity with the suffix 'way'. Should 'event-way'
 </details>
 
 <details>
-  <summary>Level 2 - TBC</summary>
-
-</details>
-
-<details>
-  <summary>Level 3 - Bisection Method</summary>
+  <summary>Level 2 - Bisection Method</summary>
 
 ### Problem
 
@@ -78,5 +73,10 @@ If `f(mid) < 0 < f(right)` or `f(mid) > 0 > f(right)`, then the solution is in `
 If `f(left) < 0 < f(mid)` or `f(left) > 0 > f(mid)`, then the solution is in `[left, mid]`, we continue using the `[mid, right]`, splitting this range in half again.
 
 We stop once the two end points of the range agree to dp decimal places, and return the value rounded to dp decimal places.
+
+</details>
+
+<details>
+  <summary>Level 3 - ROT Cypher</summary>
 
 </details>
