@@ -81,20 +81,29 @@ We stop once the two end points of the range agree to dp decimal places, and ret
 
 ### Problem
 
-Write a program to encode plaintext using a rotation cypher. i.e. if the key is `5` then each character moves forward `5` places in the alphabet. (`A` -> `F`, and `Y` -> `D`)
+Write a program to encode plaintext using a rotation cypher. i.e. if the key is `5` then each character moves forward `5` places in the alphabet. (`A` -> `F`, and `Y` -> `D`) Drop all non-alphabetic characters.
 
 Input example:
 
-    >>> encypt('Python Aberdeen!', 5)
-    UDYMTS FGJWIJJS
+    >>> encrypt('Python Aberdeen!', 5)
+    UDYMTSFGJWIJJS
 
-Have your program split the output into chunks of a size you can choose (in the example below chunk size 4) to disguise the input further. If the length of the input is not a multiple of the chunk size, just padd out the end with randomly-chosen junk letter (here `XI` is just padding and has no meaning).
+Have your program split the output into chunks of a size you can choose (in the example below chunk size 4) to disguise the input further. If the length of the input is not a multiple of the chunk size, just pad out the end with randomly-chosen junk letter (here `XI` is just padding and has no meaning).
 
-    >>> encypt('Python Aberdeen!', 5, 4)
+    >>> encrypt('Python Aberdeen!', 5, 4)
     UDYM TSFG JWIJ JSXI
 
-[`CYPHER1.txt`](/2020-01/level3/CYPHER1.txt)
+Write a decrypt function which takes an encpyted string and key. Note that you will have lost formatting and the string will end with some junk characters, but this is okay.
 
-[`CYPHER2.txt`](/2020-01/level3/CYPHER2.txt)
+    >>> encrypt('UDYM TSFG JWIJ JSXI', 5)
+    PYTH ONAB ERDE ENSD
+
+Test your decrpyption: [`CYPHER1.txt`](/2020-01/level3/CYPHER1.txt) was encoded with the key `4`, check that is decodes.
+
+### Ideas for Enhancment
+
+[`CYPHER2.txt`](/2020-01/level3/CYPHER2.txt) was encoded with an unknown key.
+
+Write a program to automatically detect and decrpty the key by explointing thayt fact that `E` is the most common letter in the English language. Have your program automatically crack the above file without a human having to guess and check keys.
 
 </details>
