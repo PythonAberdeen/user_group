@@ -100,7 +100,7 @@ Write a decrypt function which takes an encpyted string and key. Note that you w
 
 Test your decrpyption: [`CYPHER1.txt`](/2020-01/level3/CYPHER1.txt) was encoded with the key `4`, check that is decodes.
 
-Try encrypting a large block or text, several paragraphs and saving it [in the GitHub](/2020-01/level3/).
+Try encrypting a large block or text, several paragraphs and saving it [in the GitHub](/2020-01/level3/) (give the file a unique name to avoid collisions).
 
 ### Ideas for Enhancment
 
