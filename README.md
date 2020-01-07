@@ -108,4 +108,6 @@ Try encrypting a large block or text, several paragraphs and saving it [in the G
 
 Write a program to automatically detect and decrypt the key by explointing the fact that `E` is the most common letter in the English language. Have your program automatically crack the above file without a human having to guess and check keys.
 
+If other users have added cyphertext to the GitHub, try cracking those.
+
 </details>
