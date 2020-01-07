@@ -88,9 +88,9 @@ Input example:
     >>> encypt('Python Aberdeen!', 5)
     UDYMTS FGJWIJJS
 
-Have your program split 
+Have your program split the output into chunks of a size you can choose (in the example below chunk size 4) to disguise the input further. If the length of the input is not a multiple of the chunk size, just padd out the end with randomly-chosen junk letter (here `XI` is just padding and has no meaning).
 
-    >>> encypt('Python Aberdeen!', 5)
-    UDYMT SFGJW IJJS
+    >>> encypt('Python Aberdeen!', 5, 4)
+    UDYM TSFG JWIJ JSXI
 
 </details>
