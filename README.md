@@ -100,6 +100,8 @@ Write a decrypt function which takes an encpyted string and key. Note that you w
 
 Test your decrpyption: [`CYPHER1.txt`](/2020-01/level3/CYPHER1.txt) was encoded with the key `4`, check that is decodes.
 
+Try encrypting a large block or text, several paragraphs and saving it [in the GitHub](/2020-01/level3/).
+
 ### Ideas for Enhancment
 
 [`CYPHER2.txt`](/2020-01/level3/CYPHER2.txt) was encoded with an unknown key.
