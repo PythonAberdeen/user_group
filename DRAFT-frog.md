@@ -55,4 +55,4 @@ Fill in the table with the results from your simulation, and try to find a patte
 | 5         | ... |
 | ... | ... |
 
-Work out how many hops it will take on average for `n = 1,000,000`
+Work out how many hops it will take on average for `n = 1,000,000` (Hint: compare each entry in the table above to the previous row to work out a formula)
