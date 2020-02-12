@@ -10,7 +10,7 @@ Click the arrows below to view this month's challenge problems. You can also vie
 <details>
   <summary>Level 2 - Russian Multiplication</summary>
   
-  Russian Multiplication
+  ## Russian Multiplication
   
   The problem requires you to implement an unusal multiplication algorithm for positive integers.
   
