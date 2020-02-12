@@ -14,6 +14,10 @@ Click the arrows below to view this month's challenge problems. You can also vie
 
 <details>
   <summary>Level 3 - The Frog Problem</summary>
+  
+  ## The Frog Problem
+  
+This problem requires you to write a simulation of a system involving randomness.
 
 A frog wants to get from it's current lily pad (pad `0`) to another lily pad `n` pads are (pad `n`)
 
