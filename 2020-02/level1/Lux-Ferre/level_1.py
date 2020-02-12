@@ -16,6 +16,8 @@ def rate_password(username, password):
         score += 3
     if contains_digit(password):
         score += 5
+    if contains_space(password):
+        score += 5
     if contains_other(password):
         score += 10
     if score < 0:
@@ -35,8 +37,12 @@ def contains_digit(password):
     if re.search("[0-9]+", password):
         return True
 
+def contains_space(password):
+    if re.search("[ ]+", password):
+        return True
+
 def contains_other(password):
-    if re.search("[^a-zA-Z0-9]+", password):
+    if re.search("[^a-zA-Z0-9 ]+", password):
         return True
 
 if __name__ == '__main__':
