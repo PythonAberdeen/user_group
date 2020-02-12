@@ -266,6 +266,6 @@ Fill in the table with the results from your simulation, and try to find a patte
 
 Work out how many hops it will take on average for `n = 1,000,000` (Hint: compare each entry in the table above to the previous row to work out a formula)
 
-Use a plotting library to generate a plot with `n` on the x-axis and Average number of hops on the y-axis.
+Use a plotting library to generate a plot with `n` on the x-axis and Average number of hops on the y-axis. Try plotting on the smae chart, both your simulation results, and prediction for an explicit formula and see how they match up!
 
 </details>
