@@ -19,27 +19,30 @@ def rate_password(username, password):
             break
 
     for letter in password:
-        if letter in str(digits):
+        # <error> str(digits) creates whitespaces between values, so "Bob cat 猫" scores +5 because of the space
+        # if letter in str(digits): 
+        # <fix> added method ".replace(" ", "")" to replace whitespaces with no spaces
+        if letter in str(digits).replace(" ", ""): 
             score = score + 5
             break
 
     if ' ' in password:
         score = score + 5
 
-    #for letter in password:
-    #    if (letter.isspace()) == True:
-    #        score = score + 5
-    #        break
-    
     for letter in password:
         if letter not in lowercase + uppercase + str(digits) + " ":
             score = score + 10
             break
  
-    # to be finished
-    # if username.lower in password:
-    #     score = score - 15
-            
-            
+    # <error> this won't penalise "BobX" in "BoB cat 猫" because "if .. in .." checks for the entire username
+    # if username.lower() in password.lower():
+    # <fix> used method "find()" (it returns the first position of the matched string; otherwise -1)
+    # <fix> set both username and password lowercase to avoid case sensitive
+    if password.lower().find(username.lower()) > -1:
+        score = score - 15            
     
-    return score
+    # set minimum score at 0
+    if score >= 0:
+        return score
+    else:
+        return 0
