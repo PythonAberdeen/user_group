@@ -10,29 +10,4 @@ Click the arrows below to view this month's challenge problems. You can also vie
 
 # March 2020
 
-<details>
-  <summary>Level 1 - TBC</summary>
-  
-  ## TBC
-  
-  TBC
-  
-</details>
-
-<details>
-  <summary>Level 2 - TBC</summary>
-  
-  ## TBC
-  
-  TBC
-  
-</details>
-
-<details>
-  <summary>Level 3 - TBC</summary>
-  
-  ## TBC
-  
-  TBC
-  
-</details>
+TBC
