@@ -1,8 +1,13 @@
-**Notice:**
+## Tickets 
 
-We are looking for feedback from APUG attendees to help us improve the meetup.
+- [Mar-20](https://ti.to/code-the-city/aberdeen-python-user-group-Mar-2020)
+- [Apr-20](https://ti.to/code-the-city/aberdeen-python-user-group-Apr-2020)
+- [May-20](https://ti.to/code-the-city/aberdeen-python-user-group-May-2020)
+- [Jun-20](https://ti.to/code-the-city/aberdeen-python-user-group-Jun-2020)
 
-There is an [anonymous survey](https://forms.gle/cHzxANBttdx8536g8) which should only take 5 minutes to complete.
+## Speaker and Slides
+
+Find our list of [past speakers and slides here.](https://github.com/PythonAberdeen/user_group/wiki/Speakers)
 
 -----
 
