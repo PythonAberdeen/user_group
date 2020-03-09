@@ -9,10 +9,12 @@
 
 Find our list of [past speakers and slides here.](https://github.com/PythonAberdeen/user_group/wiki/Speakers)
 
------
+## Previous Challenge Problems
 
 Click the arrows below to view this month's challenge problems. You can also view [previous months](/previous).
 
 # March 2020
 
-TBC
+This month, we have a *data-themed* event.
+
+Some files are available [here](https://github.com/PythonAberdeen/user_group/tree/master/2020-03/challenge_files) which will be used.
