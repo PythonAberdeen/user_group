@@ -1,9 +1,6 @@
-# Please note that all events we have scheduled in ONE Tech Hub, including Aberdeen Python User Group, are ALL postponed until further notice. 
+# COVID-19 Update
 
-### Tickets for Upcomming Events
-
-[13th May 2020](https://ti.to/code-the-city/aberdeen-python-user-group-May-2020) •
-[10th June 2020](https://ti.to/code-the-city/aberdeen-python-user-group-Jun-2020)
+Please note that all events we have scheduled in ONE Tech Hub, including Aberdeen Python User Group, are ALL postponed until further notice. ONE Tech Hub have closed Studios One and Two until at least the end of April.
 
 ### Past Events
 
