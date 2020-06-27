@@ -1,27 +1,19 @@
 # Aberdeen Python User Group
 
-## Format
+## Event Format
 
-30 minute talk on a topic
-90 minute group activities (two levels - beginner and intermediate) and then
-30 min demo of outcomes of group activities.
+We're restarting the Aberdeen Python Group on the second Wednesday of every month. This will be fully online for now and we'll use Zoom as the platform. The first session on Weds 8th July will feature a talk by Lee A. Christie
 
-## Aberdeen Python Group is Back!
+Next Event: *Wednesday, 8th of July 2020* (Time TBC)
 
-We're restarting the Aberdeen Python Group on the second Wednesday of every month. This will start on **Weds 8th July**. This will be fully online for now and we'll use Zoom as the platform.
+- **30 min** Talk: Lee A. Christie on *Git and GitHub: Version Control and Social Coding*
+- **90 min** Group Activities (Beginner and Intermediate)
+- **30 min** Demo of Outcomes of Group Activities
 
-The first session on Weds 8th July will feature a talk by Lee A. Christie: *Git and GitHub: Version Control and Social Coding*
-
-For more info and discussion and to take part in a poll to determine what time the sessions will start please ensure that you have joined and are checking messages on the [Slack Group](https://join.slack.com/t/python-aberdeen/shared_invite/zt-fe4vr06d-TavzVV4ZusCxYLEdCqxsyQ).
-
-We've also pencilled in a session on Web Scraping on Weds 12th August. More details will be posted on Slack.
-
-See you there.
-
-## Challenge Problems
+## Group Activities
 
 - [Beginner Challenge Problems](beginner.md)
-- July 2020 Intermediate Challenge Problem (comming soon)
+- July 2020 Intermediate Challenge Problem (TBC)
 
 ## Past Events
 
