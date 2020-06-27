@@ -19,7 +19,7 @@ See you there.
 
 ## Challenge Problems
 
-- [Beginner Challenge Problems](beginer.md)
+- [Beginner Challenge Problems](beginner.md)
 - July 2020 Intermediate Challenge Problem (comming soon)
 
 ## Past Events
