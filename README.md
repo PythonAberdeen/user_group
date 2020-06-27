@@ -17,8 +17,13 @@ We've also pencilled in a session on Web Scraping on Weds 12th August. More deta
 
 See you there.
 
+## Challenge Problems
+
+- [Beginner Challenge Problems](beginer.md)
+- July 2020 Intermediate Challenge Problem (comming soon)
+
 ## Past Events
 
-Find our list of [past speakers and slides here.](https://github.com/PythonAberdeen/user_group/wiki/Speakers)
-
 [Previous months'](/previous) challenge problems are also available.
+
+Find our list of [past speakers and slides here.](https://github.com/PythonAberdeen/user_group/wiki/Speakers)
