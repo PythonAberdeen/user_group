@@ -6,6 +6,8 @@ We're restarting the Aberdeen Python Group on the second Wednesday of every mont
 
 Next Event: *Wednesday, 8th of July 2020* (Time TBC)
 
+Link: (comming soon)
+
 - **30 min** Talk: Lee A. Christie on *Git and GitHub: Version Control and Social Coding*
 - **90 min** Group Activities (Beginner and Intermediate)
 - **30 min** Demo of Outcomes of Group Activities
@@ -14,6 +16,11 @@ Next Event: *Wednesday, 8th of July 2020* (Time TBC)
 
 - [Beginner Challenge Problems](beginner.md)
 - July 2020 Intermediate Challenge Problem (TBC)
+
+## Social Media
+
+- [Slack](https://join.slack.com/t/python-aberdeen/shared_invite/zt-fe4vr06d-TavzVV4ZusCxYLEdCqxsyQ)
+- [Twitter](https://twitter.com/pythonaberdeen)
 
 ## Past Events
 
