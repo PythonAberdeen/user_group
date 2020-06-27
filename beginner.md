@@ -1,7 +1,11 @@
+# Beginner Challenges
+
 <details>
   <summary>Pig Latin Translation</summary>
 
-### Problem
+  ## Pig Latin Translation
+
+  ### Problem
 
 Write a function which translates a sentence from English to Pig Latin.
 
@@ -12,7 +16,7 @@ A word beginning with a consonant e.g. 'banana' has the consonant moved to the e
     >>> to_pig_latin('aberdeen python')
     'aberdeen-way ython-pay'
 
-### Ideas for Enhancment
+  ### Ideas for Enhancment
 
 Ensure your function can handle capitalisation and punctuation.
 
@@ -168,6 +172,8 @@ Tips: [Python String Methods: str(), upper(), lower(), count(), find(), replace(
 
 <details>
   <summary>Russian Multiplication</summary>
+  
+  ## Russian Multiplication
   
   The problem requires you to implement an unusal multiplication algorithm for positive integers.
   
