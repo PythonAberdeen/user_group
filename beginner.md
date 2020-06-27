@@ -1,6 +1,53 @@
 # Beginner Challenges
 
 <details>
+  <summary>Fibonacci Sequence</sumary>
+      
+  ## Fibonacci Sequence
+
+### Problem
+
+The [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number) is defined by the following rule:
+
+    F(1) = 1
+    F(2) = 1
+    F(n) = F(n-1) + F(n-2)
+
+or, the next term is the sum of the previous two,
+
+    1, 2, 3, 5, 8, 13, ...
+
+Write a function which takes an integer "n" and outputs the n'th number in the Fibonacci sequence
+
+For example:
+
+    >>> F(6)
+    13
+    
+    >>> F(1000)
+    43466557686937456435688527675040625802564660517371780402481729089536555417949051890403879840079255169295922593080322634775209689623239873322471161642996440906533187938298969649928516003704476137795166849228875
+
+### Ideas for Enhancment
+
+There are multiple different ways to implement this, have you tried at least two different ways?
+
+Try printing out the sequence, and see how long it takes to print 1000 terms
+
+    1
+    2
+    3
+    5
+    8
+    13
+    ...
+
+Try modifying your Fibonacci function to produce the [bi-directional sequence](https://en.wikipedia.org/wiki/Fibonacci_number#Sequence_properties) meaning the function is defined for negative numbers and zero too. 
+
+Can you modify the program to print the Tribonaci sequence (first 3 terms are `1` and the next term is the sum of the previous 3 terms) or n-bonaci sequence (first n terms are `1` and the next term is the sum of the previous n terms).
+
+</details>
+
+<details>
   <summary>Pig Latin Translation</summary>
 
   ## Pig Latin Translation
