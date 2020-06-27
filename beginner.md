@@ -1,7 +1,7 @@
 # Beginner Challenges
 
 <details>
-  <summary>Fibonacci Sequence</sumary>
+  <summary>Fibonacci Sequence</summary>
       
   ## Fibonacci Sequence
 
