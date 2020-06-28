@@ -6,7 +6,7 @@ We're restarting the Aberdeen Python Group on the second Wednesday of every mont
 
 Next Event: *Wednesday, 8th of July 2020* (Time TBC)
 
-Link: (comming soon)
+Register Here: [Tito](https://ti.to/code-the-city/aberdeen-python-user-group-jul-2020)
 
 - **6:30 pm** Talk: Lee A. Christie on *Git and GitHub: Version Control and Social Coding*
 - **7:00 pm** Group Activities (Beginner and Intermediate)
