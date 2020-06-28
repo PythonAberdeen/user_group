@@ -8,9 +8,9 @@ Next Event: *Wednesday, 8th of July 2020* (Time TBC)
 
 Link: (comming soon)
 
-- **30 min** Talk: Lee A. Christie on *Git and GitHub: Version Control and Social Coding*
-- **90 min** Group Activities (Beginner and Intermediate)
-- **30 min** Demo of Outcomes of Group Activities
+- **6:30 pm** Talk: Lee A. Christie on *Git and GitHub: Version Control and Social Coding*
+- **7:00 pm** Group Activities (Beginner and Intermediate)
+- **8:30 pm** Demo of Outcomes of Group Activities
 
 ## Group Activities
 
