@@ -14,8 +14,7 @@ Register Here: [Tito](https://ti.to/code-the-city/aberdeen-python-user-group-jul
 
 ## Group Activities
 
-- [Beginner Challenge Problems](beginner.md)
-- July 2020 Intermediate Challenge Problem (TBC)
+The beginner and intermediate group activities will be available on the day.
 
 ## Social Media
 
@@ -25,5 +24,7 @@ Register Here: [Tito](https://ti.to/code-the-city/aberdeen-python-user-group-jul
 ## Past Events
 
 [Previous months'](/previous) challenge problems are also available.
+
+[Beginner-friendly Challenge Problems](beginner.md) are listed here.
 
 Find our list of [past speakers and slides here.](https://github.com/PythonAberdeen/user_group/wiki/Speakers)
