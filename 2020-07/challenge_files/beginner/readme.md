@@ -20,7 +20,7 @@ She also says she thinks that the page has all names as lower case - but maybe n
 
 Can you produce the printout as asked for in the next 90 minutes? 
 
-
+ __Be prepared to share your results with the group at the end. __
 
 ## A suggested approach
 
@@ -39,5 +39,5 @@ If you need some hints you could work through it this way.
  
  or something like that. 
 
- Be prepared to share your results with the group at the end. 
+
 
