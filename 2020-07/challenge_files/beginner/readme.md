@@ -20,6 +20,8 @@ She also says she thinks that the page has all names as lower case - but maybe n
 
 Can you produce the printout as asked for in the next 90 minutes? 
 
+Could you also sort the print out either alphabetically or by number of times it appears? 
+
 __Be prepared to share your results with the group at the end.__
 
 ## A suggested approach
