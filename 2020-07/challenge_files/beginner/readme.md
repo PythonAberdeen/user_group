@@ -35,7 +35,7 @@ If you need some hints you could work through it this way.
  2. Without reading the page of text, assume that names are a mix of cases. Treat them all the same (we suggest lower if that was what you did with your list). Iterate through the page of text a word at a time. Check if each word in your cleaned up name list is in the text. If it is, add one to the count for that name. 
 
  3. Print out your results, one name per line. Think about how you would format the output. You might want to use [f-strings](https://realpython.com/python-f-strings/). For example:
- > print(f"{name}: {name_count}") 
+ > print(f"{name}: {name_count}")  
  or something like that. 
 
  Be prepared to share your results with the group at the end. 
