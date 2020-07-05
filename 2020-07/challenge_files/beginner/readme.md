@@ -36,6 +36,7 @@ If you need some hints you could work through it this way.
 
  3. Print out your results, one name per line. Think about how you would format the output. You might want to use [f-strings](https://realpython.com/python-f-strings/). For example:
  > print(f"{name}: {name_count}")  
+ 
  or something like that. 
 
  Be prepared to share your results with the group at the end. 
