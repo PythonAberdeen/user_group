@@ -10,9 +10,9 @@ She also gives you a [page of text](page.txt).
 
 Your task is to check the page of text and to count how many times each of the names appears in the page and to print that out so that it appears as follows
 
-> John: 1
-> Jane: 2
-> Bob: 0
+> John: 1  
+> Jane: 2  
+> Bob: 0  
 
 etc
 
