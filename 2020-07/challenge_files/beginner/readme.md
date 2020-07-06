@@ -11,7 +11,7 @@ She also gives you a [page of text](page.txt). She says she thinks that the page
 Your task is to check the page of text and to count how many times each of the names appears in the page and to print that out so that it appears as follows
 
 > John: 9  
-> Jane: 1 
+> Jane: 1  
 > Bob: 7  
 
 etc
@@ -22,7 +22,7 @@ Can you produce the printout as asked for in the next 90 minutes?
 When checking and fixing any issues with the list of names, do so programatically - don't manually edit it. The same goes for page of text. Imagine the list was 150 names, and the text was book-length, not page-length. 
 
 
-#Enhanced solution?
+# Enhanced solution?
 
 In order to impress your boss, could you also sort the print out alphabetically?  Or even better sort it by the number of times it appears? 
 
