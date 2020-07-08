@@ -20,6 +20,7 @@ The beginner and intermediate group activities will be available on the day.
 
 - [Slack](https://join.slack.com/t/python-aberdeen/shared_invite/zt-fe4vr06d-TavzVV4ZusCxYLEdCqxsyQ)
 - [Twitter](https://twitter.com/pythonaberdeen)
+- [Website](https://pythonaberdeen.github.io)
 
 ## Past Events
 
