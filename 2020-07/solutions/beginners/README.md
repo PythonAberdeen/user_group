@@ -18,7 +18,7 @@ The `group2.py` solution can take the filename for the data file from a  command
 
 ## List comprehension
 
-There is a common pattern where we want to build a list of elements that are the processed version of items from another list. Python offers a method of doing this in one line with (list comprehension)[https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions].
+There is a common pattern where we want to build a list of elements that are the processed version of items from another list. Python offers a method of doing this in one line with [list comprehension](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions).
 
 Here we have the traditional `for` loop method of creating `clean_names` in `solution.py` and the list comprehension methos in `group2.py`
 
