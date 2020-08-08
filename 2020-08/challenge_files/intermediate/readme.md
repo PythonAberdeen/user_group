@@ -1,8 +1,8 @@
 # Intermediate challenge August 2020
 
-Get the population of one of the cities in the list below. 
+Using the tools and frameworks in the talk tonight, and using ONLY web scraping: 
 
-1. You should use the tools and frameworks in the talk tonight. You should use ONLY web scraping. 
+1. Get the population of one of the cities in the list below. 
 2. If you have time, scrape all of them. 
 3. And if still have time to spare, add them together. 
 
