@@ -2,9 +2,9 @@
 
 ## Event Format
 
-We're restarting the Aberdeen Python Group on the second Wednesday of every month. This will be fully online for now and we'll use Zoom as the platform. The first session on Weds 8th July will feature a talk by Lee A. Christie
+We're restarting the Aberdeen Python Group on the second Wednesday of every month. This will be fully online for now and we'll use Zoom as the platform.
 
-Next Event: *Wednesday, 8th of July 2020*, 6:30 pm to 9:00 pm
+Next Event: *Wednesday, 12th of August 2020*, 6:30 pm to 9:00 pm
 
 Register Here: [Tito](https://ti.to/code-the-city/aberdeen-python-user-group-jul-2020)
 
