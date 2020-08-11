@@ -8,7 +8,7 @@ Next Event: *Wednesday, 12th of August 2020*, 6:30 pm to 9:00 pm
 
 Register Here: [Tito](https://ti.to/code-the-city/aberdeen-python-user-group-aug-2020)
 
-- **6:30 pm** Talk: Lee A. Christie on *Git and GitHub: Version Control and Social Coding*
+- **6:30 pm** Talk: Ian Watt on *Scraping the Web with Python Tools*
 - **7:00 pm** Group Activities (Beginner and Intermediate)
 - **8:30 pm** Demo of Outcomes of Group Activities
 
