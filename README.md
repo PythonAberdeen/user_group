@@ -14,7 +14,11 @@ Register Here: [Tito](https://ti.to/code-the-city/aberdeen-python-user-group-jul
 
 ## Group Activities
 
-The beginner and intermediate group activities will be available on the day.
+The beginner and intermediate group activities for Aug 2020 are available here.
+
+- [Beginner Challenge Problem](/2020-08/challenge_files/beginner/readme.md)
+- [Intermediate Challenge Problem](/2020-08/challenge_files/intermediate/readme.md)
+
 
 ## Social Media
 
