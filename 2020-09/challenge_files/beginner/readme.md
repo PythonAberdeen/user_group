@@ -18,7 +18,9 @@ You can use the folowing or choose others:
 >> We know the birthdates of
 >> * Lewis Capaldi
 >> * Dame Judy Dench
-... (complete the list)
+>> 
+>> ... (complete the list)
+
 >>Which person's birthday would you like to know?
 
 3. Take user input of a name
