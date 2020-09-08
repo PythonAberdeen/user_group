@@ -37,4 +37,4 @@ You might want to look at using a [dictionary](https://www.educba.com/dictionary
 
 ## Finished?
 When you have a solution create a pull request to upload it to this repo under 
-2020-08/solutions/beginners/
+2020-09/solutions/beginners/
