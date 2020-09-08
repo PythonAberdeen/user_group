@@ -1,4 +1,4 @@
-# Beginner challenge August 2020
+# Beginner challenge September 2020
 The chellenge this month is to create a birthday look-up service. 
 
 ## Famous birthdays
