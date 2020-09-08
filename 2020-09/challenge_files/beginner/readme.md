@@ -24,7 +24,7 @@ You can use the folowing or choose others:
 3. Take user input of a name
 
 4. Look it up in the data you store. If it matches return
->> "<name> was born on <date>"
+>> NAME was born on DATE
 
 5. If there was no match, ask the user to try again or to enter "Stop" to finish the service
 
