@@ -1,0 +1,40 @@
+import requests
+from bs4 import BeautifulSoup
+
+urls = [
+'https://en.wikipedia.org/wiki/Perth,_Scotland',
+'https://en.wikipedia.org/wiki/Edinburgh',
+'https://en.wikipedia.org/wiki/Glasgow',
+'https://en.wikipedia.org/wiki/Aberdeen',
+'https://en.wikipedia.org/wiki/Stirling',
+'https://en.wikipedia.org/wiki/Inverness',
+'https://en.wikipedia.org/wiki/Dundee']
+
+for url in urls:
+    city = url.rsplit('/')[-1]
+    population = 0 # checker to reset population to 0 in case the scraper didn't work
+    
+    
+    r = requests.get(url)
+    soup =  BeautifulSoup(r.content,"html.parser")
+
+    rows = soup.find('table', {'class':'infobox geography vcard'}).find_all('tr')
+
+    for row in rows:
+        cells = row.find_all('th')
+        if cells and cells[0].get_text().startswith('Population'):
+            data_cells = row.find_all('td')
+            if not data_cells:
+                data_cells = row.next_sibling.find_all('td')
+            population = data_cells[0].get_text() \
+                .split()[0].replace(',','') \
+                .split('[')[0].replace(',','')
+            
+            if url == urls[0]:
+                sumpopulation = int(population)
+            else: 
+                sumpopulation = sumpopulation + int(population)
+            
+            print (city, population)
+            
+print ("Sum of population: ",sumpopulation)
