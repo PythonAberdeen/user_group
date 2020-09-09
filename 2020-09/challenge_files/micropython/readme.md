@@ -66,9 +66,9 @@ What else can you think of to do with this hardware?
 
 ## Clock
 
-I have a large clock made up of 7 segment digits, with each segment being a length of 12V UV LED tape controlled by p9813 LED controller ICs. 
+I have a large clock made up of 7 segment digits, with each segment being a length of 12V UV LED tape controlled by a series of p9813 LED controller ICs. 
 
-The wiring is as per: 
+The wiring was picked to be convenient for construction rather than being logical for controlling the clock: 
 
 ![wiring](clock.png) 
 
