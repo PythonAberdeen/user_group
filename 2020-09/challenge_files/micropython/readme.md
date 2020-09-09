@@ -1,10 +1,10 @@
 # Micropython challenges September 2020
 
-## Intro
+## Introduction to MicroPython
 
 An ESP32 board is available with micropython flashed to it and set up with a temperature and humidity sensor, a touch button, some neopixel LEDs and an I2C 7 segment display. 
 
-![connections][hw.png]
+![connections](hw.png)
 
 The neopixels (WS2812) are connected to pin 16. There are two boards of neopixels each with 7 LEDs connected in series.
 
@@ -70,7 +70,7 @@ I have a large clock made up of 7 segment digits, with each segment being a leng
 
 The wiring is as per: 
 
-![wiring][clock.png] 
+![wiring](clock.png) 
 
 Numbers in circles give the sequence of p9813 modules from 1 to 8. 
 
