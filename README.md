@@ -2,13 +2,13 @@
 
 ## Event Format
 
-We're restarting the Aberdeen Python Group on the second Wednesday of every month. This will be fully online for now and we'll use Zoom as the platform.
+Our Aberdeen Python Group runs on the second Wednesday of every month. This will be fully online for now and we'll use Zoom as the platform.
 
-Next Event: *Wednesday, 12th of August 2020*, 6:30 pm to 9:00 pm
+Next Event: *Wednesday, 11th of October 2020*, 6:30 pm to 9:00 pm
 
-Register Here: [Tito](https://ti.to/code-the-city/aberdeen-python-user-group-aug-2020)
+See our [website](https://pythonaberdeen.github.io) for more details and how to register. 
 
-- **6:30 pm** Talk: Ian Watt on *Scraping the Web with Python Tools*
+- **6:30 pm** Talk
 - **7:00 pm** Group Activities (Beginner and Intermediate)
 - **8:30 pm** Demo of Outcomes of Group Activities
 
@@ -16,8 +16,8 @@ Register Here: [Tito](https://ti.to/code-the-city/aberdeen-python-user-group-aug
 
 The beginner and intermediate group activities for Aug 2020 are available here.
 
-- [Beginner Challenge Problem](/2020-08/challenge_files/beginner/readme.md)
-- [Intermediate Challenge Problem](/2020-08/challenge_files/intermediate/readme.md)
+- [Beginner Challenge Problem](/2020-10/challenge_files/beginner/)
+- [Intermediate Challenge Problem](/2020-10/challenge_files/intermediate/)
 
 
 ## Social Media
