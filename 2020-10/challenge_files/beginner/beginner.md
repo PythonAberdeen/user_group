@@ -14,9 +14,10 @@ This month its all about making and showing league tables from user input.
 ## Displaying the data
 
  3. When the user types 'stop' you should print 
-
+```
  >> Constructing our leagues 
  >>
+```
 
  The printout should resemble this:
 ```
