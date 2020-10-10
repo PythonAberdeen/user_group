@@ -1,4 +1,4 @@
-# Intermediate Challenge - Oct 2020 (DRAFT))
+# Intermediate Challenge - Oct 2020
 
 In this challenge, we will design a class called `DiceSet` which reprsents a set of dice. There can be zero or more dice in the set. Dice can have different number of sides, and there can be more than one die of each type.
 
@@ -125,5 +125,6 @@ What else could we do with this project? Here are some ideas:
 - Enable mutation `.add_die(6)` changes the set of dice
 - `.contains_die(20)` returns `True` if there is a d20 in the set
 - `.count(20)` returns the number of d20s in the set
+- Add str parsing to the constructor e.g. `DiceSet('2d20 + 3d100')`
 
 Are there any other ideas you can think of? Try to make whatever you do feel *Pythonic*.
