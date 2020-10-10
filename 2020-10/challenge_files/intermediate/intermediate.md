@@ -121,11 +121,11 @@ For the empty dice set we'll keep the same representation (this is similar to th
 
 What else could we do with this project? Here are some ideas:
 
-- Allow converting to a list or dict `list(DiceSet(6, 20))`
 - Enable mutation `.add_die(6)` changes the set of dice
 - `.contains_die(20)` returns `True` if there is a d20 in the set
 - `.count(20)` returns the number of d20s in the set
 - Add str parsing to the constructor e.g. `DiceSet('2d20 + 3d100')`
+- Allow converting to a list or dict `list(DiceSet(6, 20))`
 - All the set to be iterated returning a one-die set each time, so `for d in DiceSet(20, 20, 100)` works as if `for d in [DiceSet(20), DiceSet(20), DiceSet(100)]`
 
 Are there any other ideas you can think of? Try to make whatever you do feel *Pythonic*.
