@@ -39,6 +39,8 @@ This month its all about making and showing league tables from user input.
 ```
  etc
 
+## Plan your approach
+
  Before you start coding, plan out 
  - how you are going to check users data (text v numeric etc)
  - how you will store the data,
@@ -47,6 +49,8 @@ This month its all about making and showing league tables from user input.
 
  This will inform your choice of data structures to use. 
 
-Do the exercises in small groups. You will be sent to Zoom rooms in twos or threes. 
+It is best if you do the exercise in small groups. Discuss design decisions, and share programming approaches. 
+
+Don't forget to upload your code to this Github repo when you are finished. 
 
 
