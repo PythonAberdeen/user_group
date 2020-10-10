@@ -19,23 +19,23 @@ This month its all about making and showing league tables from user input.
  >>
 
  The printout should resemble this:
-'''
+```
  >> League 1
  >> =========
  >> <Team name> <points>
  >> <Team name> <points>
  >> <Team name> <points>
-'''
+```
  etc
 
 ## Sorting the data
 
  Try to organise the leagues by descending points
-'''
+```
  >> <Team A> 51
  >> <Team B> 42
  >> <Team C> 28 
-'''
+```
  etc
 
  Before you start coding, plan out 
