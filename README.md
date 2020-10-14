@@ -2,19 +2,23 @@
 
 ## Event Format
 
-We're restarting the Aberdeen Python Group on the second Wednesday of every month. This will be fully online for now and we'll use Zoom as the platform. The first session on Weds 8th July will feature a talk by Lee A. Christie
+Our Aberdeen Python Group runs on the second Wednesday of every month. This will be fully online for now and we'll use Zoom as the platform.
 
-Next Event: *Wednesday, 8th of July 2020*, 6:30 pm to 9:00 pm
+Next Event: *Wednesday, 14th of October 2020*, 6:30 pm to 9:00 pm
 
-Register Here: [Tito](https://ti.to/code-the-city/aberdeen-python-user-group-jul-2020)
+See our [website](https://pythonaberdeen.github.io) for more details and how to register. 
 
-- **6:30 pm** Talk: Lee A. Christie on *Git and GitHub: Version Control and Social Coding*
+- **6:30 pm** Talk
 - **7:00 pm** Group Activities (Beginner and Intermediate)
 - **8:30 pm** Demo of Outcomes of Group Activities
 
 ## Group Activities
 
-The beginner and intermediate group activities will be available on the day.
+The beginner and intermediate group activities for October 2020 are available here.
+
+- [Beginner Challenge Problem](/2020-10/challenge_files/beginner/)
+- [Intermediate Challenge Problem](/2020-10/challenge_files/intermediate/)
+
 
 ## Social Media
 
