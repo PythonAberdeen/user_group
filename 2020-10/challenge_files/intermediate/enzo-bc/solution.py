@@ -32,16 +32,13 @@ class DiceSet:
         return DiceSet(*result)
 
     def __mul__(self, other):
-        if isinstance(other, int) and other > 1:
+        if isinstance(other, int) and other >= 0:
             return DiceSet(*(self.dices * other))
         else:
             raise ValueError('multiplier must be postive')
 
     def __rmul__(self, other):
-        if isinstance(other, int) and other > 1:
-            return DiceSet(*(self.dices * other))
-        else:
-            raise ValueError('multiplier must be postive')
+        return self * other
 
     def roll(self):
         total = 0
@@ -71,6 +68,8 @@ DiceSet(2) * 5
 5 * DiceSet(3)
 #%%
 -1 * DiceSet(2)
+#%%
+0 * DiceSet(2)
 #%%
 str(DiceSet(2))
 #%%
