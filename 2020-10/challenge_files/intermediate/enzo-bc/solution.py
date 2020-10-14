@@ -49,6 +49,9 @@ class DiceSet:
             total += random.randint(1, dice)
         return total
 
+    def count(self, number):
+        return self.dices.count(number)
+
 
 #%%
 DiceSet()
@@ -76,3 +79,5 @@ b = DiceSet(20) * 8
 a - b
 #%%
 b - a
+#%%
+DiceSet(20, 4, 20, 5, 20).count(20)
