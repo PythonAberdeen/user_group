@@ -39,7 +39,7 @@ class Vec3D:
         return self * other
     
     def __matmul__(self, other):
-        return self.y * other.z - self.z * other.y, self.z * other.x - self.x * other.z, self.x * other.y - self.y * other.x
+        return Vec3D(self.y * other.z - self.z * other.y, self.z * other.x - self.x * other.z, self.x * other.y - self.y * other.x)
 
     def __truediv__(self, other):
         return Vec3D(self.x / other, self.y / other, self.z / other)
