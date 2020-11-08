@@ -10,4 +10,19 @@ Your challenge is to take a file specifying a rectangular array of numbers such 
 
 [rect1.txt](rect1.txt)
 
-TODO
+and find a sub-rectangle within which adds up to the largest possible sum.
+
+For example, in the above, the largest sum sub-rectangle is
+
+     8     2
+    -3     5
+
+with a sum of 12
+
+whereas
+
+     8     2     0
+    -3     5    -3
+
+would only have a sum of 9.
+
