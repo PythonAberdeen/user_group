@@ -10,7 +10,7 @@ Your challenge is to take a file specifying a rectangular array of numbers such 
     -5     8     2     0
     -8    -3     5    -3
 
-This file is available as [rect1.txt](rect1.txt)
+This file is available as [rect1.txt](https://raw.githubusercontent.com/PythonAberdeen/user_group/master/2020-11/beginner/rect1.txt)
 
 and find a sub-rectangle within which adds up to the largest possible sum.
 
@@ -37,6 +37,6 @@ Write a program to print out the largest sum sub-rectangle, and it's total value
 
 ### Extra Test Cases
 
-Another test case is [rect2.txt](rect2.txt) with a largest sum sub-rectangle adding to 208.
+Another test case is [rect2.txt](https://raw.githubusercontent.com/PythonAberdeen/user_group/master/2020-11/beginner/rect2.txt) with a largest sum sub-rectangle adding to 208.
 
 Finally, [rect3.txt](https://raw.githubusercontent.com/PythonAberdeen/user_group/master/2020-11/beginner/rect3.txt) with a largest sum sub-rectangle adding 1650.
