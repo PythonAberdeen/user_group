@@ -39,4 +39,4 @@ Write a program to print out the largest sum sub-rectangle, and it's total value
 
 Another test case is [rect2.txt](rect2.txt) with a largest sum sub-rectangle adding to 208.
 
-Finally, [https://raw.githubusercontent.com/PythonAberdeen/user_group/master/2020-11/beginner/rect3.txt](rect3.txt) with a largest sum sub-rectangle adding 1650.
+Finally, [rect3.txt](https://raw.githubusercontent.com/PythonAberdeen/user_group/master/2020-11/beginner/rect3.txt) with a largest sum sub-rectangle adding 1650.
