@@ -26,3 +26,4 @@ whereas
 
 would only have a sum of 9.
 
+Another test case is [rect2.txt](rect2.txt) with a largest sum sub-rectangle adding to 208.
