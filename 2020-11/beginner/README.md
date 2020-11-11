@@ -32,8 +32,8 @@ Write a program to print out the largest sum sub-rectangle, and it's total value
 
     total = 12
     
-     8     2     0
-    -3     5    -3
+     8     2 
+    -3     5
 
 ### Extra Test Cases
 
