@@ -22,6 +22,7 @@ Pick an approach to running code and plotting.
 Options include:
  * [matplotlib/pyplot](https://matplotlib.org/tutorials/introductory/pyplot.html)
  * [Jupyter](https://jupyter.org/) Could use hosted Jupyter notebook to do this exercise without needing anything installed locally. 
+ * [Dash](https://dash.plotly.com/)
  * [Streamlit](https://www.streamlit.io/)
  
 ## Write maths function
