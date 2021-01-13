@@ -9,6 +9,7 @@ You have been asked to write a Python script to ingest this data and to analyse 
 * The number of each type of top-level domain used in email addresses (.com, .org etc)
 * The number of users for each full domain name (eg. dailymail.co.uk)
 * The number of instances of each first part of postcodes where there are two parts which should either be separated by a space or dash (eg. 123 456 or 9997-8088 which would yeild 123 and 9997 respectively). All other types of data should be disregarded.
+* What have we more of? Male or female users? 
 
 ## Constraints
 While there are several approaches that could be used (aren't there always in Python), in this case you should primarly use Regular expressions to match patterns, extract parts of strings (think about capture groups) or sequences of characters. 
