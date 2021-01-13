@@ -2,7 +2,7 @@
 Set by [Ian Watt](https://github.com/watty62) - Licence [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## Scenario
-You have been given a log of client data: note this was generated using [Mockaroo](https://mockaroo.com) and contains _only_ machine-generated data. 
+You have been given a [log of client data](fake_client_data.csv): note the data in this text file was generated using [Mockaroo](https://mockaroo.com) and contains _only_ machine-generated fake data. 
 
 You have been asked to write a Python script to ingest this data and to analyse it to present the following report:
 
