@@ -16,11 +16,11 @@ It should declare a winner each round.
 
 Make the game for just one player, playing against the programme. Create random selections for the programme. 
 
-``` I chose Rock
+    I chose Rock
 
-You chose Paper
+    You chose Paper
 
-You win. ```
+    You win.
 
 __AND / OR__
 
@@ -32,5 +32,5 @@ __AND / OR__
 
 Keep a tally of wins and when the payer quits prinout our scores in descending order
 
-> PC won 10 games
-> You won 9 games
+    PC won 10 games
+    You won 9 games
