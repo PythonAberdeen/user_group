@@ -34,3 +34,9 @@ Keep a tally of wins and when the payer quits prinout our scores in descending o
 
     > PC won 10 games
     > You won 9 games
+
+## Reporting back - and sharing your solution
+
+At the end of the meet-up be prepared to show your code, explain how it works, why you chose certain methods. 
+
+Create a pull request to merge your solution with the repo here. 
