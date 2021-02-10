@@ -1,4 +1,4 @@
-# Intermediate Challenge Feb 2021
+# Intermediate Challenge Feb 2021
 
 This is tonight's challenge for intermediate programmers, to be done in small groups. 
 
@@ -22,16 +22,15 @@ Make the game for just one player, playing against the programme. Create random 
 
 >> You win. 
 
-_AND / OR_
+__AND / OR__
 
 Add a fouth or fifth element beyond R,P,S e.g. Rock, Paper, Scissors, Spock. 
 
 See [this](https://boardgames.stackexchange.com/questions/11280/adding-additional-weapons-to-rock-paper-scissors) for the extreme version.
 
-_AND / OR _
+__AND / OR__
 
 Keep a tally of wins and when the payer quits prinout our scores in descending order
 
->> PC won 10 games
->> You won 9 games
-
+> PC won 10 games
+> You won 9 games
