@@ -16,8 +16,8 @@ See our [website](https://pythonaberdeen.github.io) for more details and how to 
 
 The beginner and intermediate group activities for October 2020 are available here.
 
-- [Beginner Challenge Problem](/2020-12/beginner/)
-- [Intermediate Challenge Problem](https://colab.research.google.com/drive/1TLYZN6YvvnUhkEoXS-i_Kas74upNck9b?usp=sharing)
+- [Beginner Challenge Problem](/2021-02/beginner/)
+- [Intermediate Challenge Problem](/2021-02/intermediate/)
 
 
 ## Social Media
