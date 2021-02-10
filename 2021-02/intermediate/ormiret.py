@@ -75,4 +75,4 @@ while True:
         p2_result += 1
 
     input()
-    clear()
+
