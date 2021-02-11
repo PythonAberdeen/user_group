@@ -1,7 +1,8 @@
 from os import system, name
 from random import choice
+from collections import OrderedDict
 
-## Expanding from KJ's solution to add lizard and verbs
+## Expanding from KJ's solution to add more options (extensions from umop.com/rps.htm) and verbs
 
 def clear():
     # for windows
@@ -13,20 +14,33 @@ def clear():
 
 """Using dictionary as suggested by @0x1ac"""
 ### Only records wins, e.g. rock wins over scissors
-wins_over = {
-    'paper': (['rock','spock'],
-              ['covers', 'disproves']),
-    'rock':(['scissors', 'lizard'],
-            ['blunts', 'crushes']),
-    'scissors':(['paper','lizard'],
-                ['cuts', 'decapitates']),
-    'spock':(['rock','scissors'],
-             ['vaporizes', 'smashes']),
-    'lizard':(['paper', 'spock'],
-              ['eats', 'poisons'])
-            }
+d = OrderedDict()
+d['paper'] =  (['rock','air', 'water', 'gun',  'devil'],
+               ['covers', 'fans', 'floats on', 'outlaws', 'rebukes'])
+d['rock'] = (['scissors', 'fire', 'sponge', 'human', 'wolf'],
+             ['blunts', 'pounds out', 'crushes', 'crushes', 'crushes'])
+d['scissors'] = (['paper','sponge', 'air', 'human', 'wolf'],
+                  ['cuts', 'cuts', 'swishes through', 'cuts', 'cuts'])
+d['air'] = (['fire', 'rock', 'water', 'gun', 'devil'],
+             ['blows out', 'erodes', 'evaporates', 'tarnishes', 'chokes'])
+d['fire'] = (['scissors', 'paper', 'sponge', 'human', 'wolf'],
+             ['melts', 'burns', 'burns', 'burns', 'burns'])
+d['sponge'] = (['paper', 'air', 'water', 'gun', 'devil'],
+             ['soaks', 'uses', 'absorbs', 'cleans', 'cleanses'])
+d['water'] = (['rock', 'fire', 'scissors', 'gun', 'devil'],
+               ['erodes', 'puts out', 'rusts', 'rusts', 'drowns'])
+d['gun'] = (['rock', 'fire', 'scissors', 'human', 'wolf'],
+            ['targets', 'fires', 'outclasses', 'shoots', 'shoots'])
+d['human'] = (['sponge', 'paper', 'air', 'water', 'wolf'],
+              ['cleans with', 'writes on', 'breathes', 'drinks', 'tames'])
+d['wolf'] = (['sponge', 'paper', 'air', 'water', 'devil'],
+             ['chews up', 'chews up', 'breathes', 'drinks', 'bites'])
+d['devil'] = (['rock', 'fire', 'scissors', 'gun', 'human'],
+              ['hurls', 'breathes', 'is immune to', 'is immune to', 'possesses'])
+wins_over = d
 
-options = list(wins_over.keys())
+
+options = list(wins_over.keys())[:5]
 all_options = options + ['exit']
 p1_result, p2_result = 0, 0
 
@@ -44,12 +58,34 @@ def rps(p1, p2):
     else: 
         return 'Player 2', how(p2, p1)
 
+def rps_list(p1, p2):
+    p1 = p1.lower()
+    p2 = p2.lower()
+    if p1==p2:
+        return 'Tie'
+    else:
+        diff = options.index(p1) - options.index(p2)
+        tot = len(options)
+        if tot % 2 == 0:
+            tot += 1
+        if diff % tot % 2 == 0:
+            return 'Player 1'
+        else:
+            return 'Player 2'
+if True:
+    for p1 in options:
+        for p2 in options:
+            print(f'{p1} vs {p2}')
+            if not rps(p1, p2)[0] == rps_list(p1, p2):
+                print(f'WRONG: {rps(p1, p2)} {rps_list(p1, p2)}')
+    input()
+        
 
 while True:
     clear()
     p1_choice, p2_choice = '', ''
     while p1_choice.lower() not in all_options:
-        p1_choice = input('Player 1 > ')
+        p1_choice = input(f'{", ".join(all_options)}?\n>')
         clear()
 
     if 'exit' in p1_choice.lower():
