@@ -50,3 +50,4 @@ These hints may be useful to get started.
 
 ## Some Mad Libs Templates
 
+- [madlibs1.txt](madlibs1.txt)
