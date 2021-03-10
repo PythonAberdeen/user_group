@@ -14,10 +14,10 @@ See our [website](https://pythonaberdeen.github.io) for more details and how to 
 
 ## Group Activities
 
-The beginner and intermediate group activities for October 2020 are available here.
+The beginner and intermediate group activities for March 2021 are available here.
 
-- [Beginner Challenge Problem](/2021-02/beginner/)
-- [Intermediate Challenge Problem](/2021-02/intermediate/)
+- [Beginner Challenge Problem](/2021-03/beginner/)
+- [Intermediate Challenge Problem](/2021-03/intermediate/)
 
 
 ## Social Media
