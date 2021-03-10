@@ -4,7 +4,7 @@
 
 Mad Libs is a word game played as a party game, where player are prompted to come up with types of words, without knowing the context they will be used in, for example:
 
-    verb: paint
+    verb (present tense, e.g. brush): paint
     noun: cat
 
 Then once they have come up with words, the sentence is reveled with their chosen words in place:
@@ -13,7 +13,7 @@ Then once they have come up with words, the sentence is reveled with their chose
 
 The origonal template (not known to the players was:
 
-    Be careful not to [verb] the [noun] when you are tidying your room!
+    Be careful not to [verb (present tense, e.g. brush)] the [noun] when you are tidying your room!
 
 ## Task
 
@@ -50,5 +50,6 @@ These hints may be useful to get started.
 
 ## Some Mad Libs Templates
 
-- [Mad Libs 1 - Short Example.txt](madlibs1.txt)
-- [Mad Libs 2 - Computers.txt](madlibs2.txt)
+- [Mad Libs 0 - Tidying (Example Above)](madlibs0.txt)
+- [Mad Libs 1 - March](madlibs1.txt)
+- [Mad Libs 2 - Computers](madlibs2.txt)
