@@ -53,3 +53,8 @@ These hints may be useful to get started.
 - [Mad Libs 0 - Tidying (Example Above)](madlibs0.txt)
 - [Mad Libs 1 - March](madlibs1.txt)
 - [Mad Libs 2 - Computers](madlibs2.txt)
+- [Ian's Mad Lib 0](ian0.txt)
+- [Ian's Mad Lib 1](ian1.txt)
+- [Ian's Mad Lib 2](ian2.txt)
+- [Ian's Mad Lib 3](ian3.txt)
+- [Example Used At Event - Python Aberdeen](python.txt)
