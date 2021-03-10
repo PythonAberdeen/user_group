@@ -50,4 +50,5 @@ These hints may be useful to get started.
 
 ## Some Mad Libs Templates
 
-- [madlibs1.txt](madlibs1.txt)
+- [Mad Libs 1 - Short Example.txt](madlibs1.txt)
+- [Mad Libs 2 - Computers.txt](madlibs2.txt)
