@@ -38,3 +38,7 @@ We have three suggested solutions (of varying complexity and readability)
 
     [print(f"Cat {c+1} is wearing a hat") for c, d in enumerate(
         [len([i for i in range(1, x+1) if x % i == 0]) for x in range(1, 101)]) if d%2==1]
+
+## See Also
+
+There are also some suggested solutions [here](https://github.com/realpython/python-basics-exercises/tree/master/ch09-lists-tuples-and-dictionaries) as solutions to the Python Basics book chellenge exercises. We highly recommend that book! 
