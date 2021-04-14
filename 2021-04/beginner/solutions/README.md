@@ -1,6 +1,6 @@
 Solutions to Cats in Hats challenge
 
-We have three suggested solutions (of varying complexity and readability)
+We have four suggested solutions (of varying complexity and readability)
 
 ## Solution One
 
@@ -36,6 +36,11 @@ We have three suggested solutions (of varying complexity and readability)
 
 ## Solution Three
 
+    import functools
+    cats = 100
+    _=[print(f"Cat {cat + 1} is wearing a hat") for cat in range(cats) if [functools.reduce(lambda x, y: x * y, [(-1) ** int((cat+1) % step == 0) for step in range(1, cats + 1)], 1) for cat in range(cats)][cat] == -1]
+
+## Solution Four
     [print(f"Cat {c+1} is wearing a hat") for c, d in enumerate(
         [len([i for i in range(1, x+1) if x % i == 0]) for x in range(1, 101)]) if d%2==1]
 
