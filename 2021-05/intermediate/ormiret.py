@@ -2,7 +2,7 @@ import json
 from typing import Any
 
 
-def json_decode(input_data: Any) -> str:
+def json_encode(input_data: Any) -> str:
     output = ''
     if type(input_data) == str:
         output = f'"{input_data}"'
@@ -12,10 +12,10 @@ def json_decode(input_data: Any) -> str:
         output += 'null'
     if type(input_data) in [list, tuple]:
         output += '[{}]'.format(', '.join(
-            [json_decode(value) for _, value in enumerate(input_data)]))
+            [json_encode(value) for _, value in enumerate(input_data)]))
     if type(input_data) == dict:
         output += '{{{}}}'.format(", ".join(
-            [f'"{repr(key)}": {json_decode(value)}'
+            [f'"{repr(key)}": {json_encode(value)}'
              for key, value in input_data.items()]))
     return output
 
@@ -35,6 +35,8 @@ def fix_dict(data: Any) -> Any:
         return new_dict
     return data
 
+def json_decode(jsons: str) -> Any:
+    return fix_dict(json.loads(jsons))
 
 if __name__ == '__main__':
     object_to_translate = ['a', 1, 2, True, [5, 6], {
@@ -49,11 +51,10 @@ if __name__ == '__main__':
         "1.5": "bar"
     }]
     #object_to_translate = {1:"something","1":"something else"}
-    result = json_decode(object_to_translate)
+    result = json_encode(object_to_translate)
     print(result)
     dump = json.dumps(object_to_translate)
     print(result == dump)
-    test = json.loads(result)
-    test = fix_dict(test)
+    test = json_decode(result)
     print(test)
     print(test == object_to_translate)
