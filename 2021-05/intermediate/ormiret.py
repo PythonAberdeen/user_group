@@ -27,7 +27,7 @@ def fix_dict(data: Any) -> Any:
         for k, v in data.items():
             if "'" in k:
                 new_key = k.replace("'", "")
-            elif "." in k:
+            elif "." in k or "e" in k:
                 new_key = float(k)
             else:
                 new_key = int(k)
@@ -48,7 +48,8 @@ if __name__ == '__main__':
         },
         77: [{'x': 0}, {'y': None}],
         1.5: "foo",
-        "1.5": "bar"
+        "1.5": "bar",
+        1e50: "big float"
     }]
     #object_to_translate = {1:"something","1":"something else"}
     result = json_encode(object_to_translate)
