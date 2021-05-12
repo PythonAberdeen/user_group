@@ -44,7 +44,9 @@ if __name__ == '__main__':
             'a': 'b',
             'c': 'd'
         },
-        77: [{'x': 0}, {'y': None}]
+        77: [{'x': 0}, {'y': None}],
+        1.5: "foo",
+        "1.5": "bar"
     }]
     #object_to_translate = {1:"something","1":"something else"}
     result = json_decode(object_to_translate)
@@ -54,3 +56,4 @@ if __name__ == '__main__':
     test = json.loads(result)
     test = fix_dict(test)
     print(test)
+    print(test == object_to_translate)
