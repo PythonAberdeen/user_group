@@ -14,6 +14,6 @@ There are quite a lot of issues with this code. Tickets for the identified issue
 
 That is definitely not a complete list of things that could be fixed or improved. 
 
-Want to work on one (or more) of those tickets (or other issues you can find). 
+Work on one (or more) of those tickets (or other issues you can find). 
 
 Create pull request(s) with your fixes or improvements.
