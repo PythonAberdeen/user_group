@@ -2,4 +2,5 @@
 
 ## Beginner Challenge
 
-- [bank_program.py](bank_program.py)
+- [Standard Python Version](bank_program.py)
+- [Jupyter Notebook Version](bank_program.ipynb)
