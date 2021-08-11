@@ -4,7 +4,7 @@
 
 Our Aberdeen Python Group runs on the second Wednesday of every month. This will be fully online for now and we'll use Zoom as the platform.
 
-Next Event: *Wednesday, 9th of December 2020*, 6:30 pm to 9:00 pm
+Next Event: *Wednesday, 14th of July 2021*, 6:30 pm to 9:00 pm
 
 See our [website](https://pythonaberdeen.github.io) for more details and how to register. 
 
@@ -14,10 +14,10 @@ See our [website](https://pythonaberdeen.github.io) for more details and how to 
 
 ## Group Activities
 
-The beginner and intermediate group activities for October 2020 are available here.
+The beginner and intermediate group activities for May 2021 are available here.
 
-- [Beginner Challenge Problem](/2021-02/beginner/)
-- [Intermediate Challenge Problem](/2021-02/intermediate/)
+- [Beginner Challenge Problem](/2021-07/beginner/)
+- [Intermediate Challenge Problem](/2021-07/intermediate/)
 
 
 ## Social Media
