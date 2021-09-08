@@ -16,9 +16,7 @@ See our [website](https://pythonaberdeen.github.io) for more details and how to 
 
 The beginner and intermediate group activities for May 2021 are available here.
 
-- [Beginner Challenge Problem](/2021-07/beginner/)
-- [Intermediate Challenge Problem](/2021-07/intermediate/)
-
+- [Challenge Problem](/2021-09/)
 
 ## Social Media
 
