@@ -1,6 +1,6 @@
 # APUG December 2021 Intermediate Challenge
 
-Click [here](https://github.com/PythonAberdeen/user_group/blob/master/2021-12/intermediate/challenge.ipynb) to vie this challenege as a Jupyter Notebook.
+Click [here](https://github.com/PythonAberdeen/user_group/blob/master/2021-12/intermediate/challenge.ipynb) to view or download this challenege as a Jupyter Notebook.
 
 To get you started, here is a template for a decorator which does not take arguments:
 
