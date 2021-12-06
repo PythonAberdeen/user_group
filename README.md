@@ -14,7 +14,7 @@ See our [website](https://pythonaberdeen.github.io) for more details and how to 
 
 ## Group Activities
 
-The beginner and intermediate group activities for May 2021 are available here.
+Group activities for December 2021 are available here.
 
 - [Intermediate Challenge Problems](https://github.com/PythonAberdeen/user_group/tree/master/2021-12/intermediate)
 
