@@ -42,7 +42,7 @@ In either case the game should then offer a new game with another random word.
 ## Enhancements 
 
 * Remembering previous attempts is difficult. While the game is not ended, can you show previous attempts and their symbols? 
-* Having a keyboard display with letters which elimited marked in some way might be helpful to the players 
+* Having a keyboard, or alphabet, display with letters which are eliminated marked in some way might be helpful to the players 
 
 
 Have fun. 
