@@ -10,7 +10,7 @@ For example:
 
 * picking a random word
 * accepting a word and comparing it to our random word
-* counting how many attempts the payer has had - and when it reaches six declaring the game over
+* counting how many attempts the player has had - and when it reaches six declaring the game over
 * displaying symbols to indicate correct letters in correct positions, correct letters in worng positions, wrong letters
 
 Good luck.
