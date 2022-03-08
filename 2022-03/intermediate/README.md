@@ -18,7 +18,7 @@ This json file contains the full scraped data: [https://raw.githubusercontent.co
 
 2. To eliminate those ships for which a manufacturer (P176) statement already exists. 
 
-3. Create a plain text file which can be used in Quickstatements - see [Quickstatements help](https://www.wikidata.org/wiki/Help:QuickStatements to bulk upload statements in the format: 
+3. Create a plain text file which can be used in Quickstatements - see [Quickstatements help](https://www.wikidata.org/wiki/Help:QuickStatements) to bulk upload statements in the format: 
 
 ship -> Manufacturer -> Yard 
 
