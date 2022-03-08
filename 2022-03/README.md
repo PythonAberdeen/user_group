@@ -8,5 +8,5 @@ Using only Python and Wikidata find out which of a defined list of politicians i
 
 ## Intermediate Challenge
 
-Help us imporve some data from a previous Code The City event. Using Python and Wikidata attribute ships built in Aberdeen to which companies built them. Prepare the output for uploading to Wikidata. Get the full challenge [here](https://github.com/PythonAberdeen/user_group/tree/master/2022-03/intermediate)
+Help us improve some data from a previous Code The City event. Using Python and Wikidata attribute ships built in Aberdeen to which companies built them. Prepare the output for uploading to Wikidata. Get the full challenge [here](https://github.com/PythonAberdeen/user_group/tree/master/2022-03/intermediate)
 
