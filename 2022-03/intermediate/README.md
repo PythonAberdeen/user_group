@@ -2,7 +2,7 @@
 
 ## Introduction
 
-At a previous Code the City hack weekend, we scraped (with permission) information on Aberdeen Built Ships from the website and uploaded it to Wikidata. 
+At a previous [Code the City hack weekend](https://codethecity.org/2020/05/25/aberdeen-built-ships/), we scraped (with permission) information on Aberdeen Built Ships from the website and uploaded it to Wikidata. 
 
 Currently on Wikidata 3,064 ships have and Aberdeen Built Ships ID (P8260). 
 
@@ -18,7 +18,7 @@ This json file contains the full scraped data: [https://raw.githubusercontent.co
 
 2. To eliminate those ships for which a manufacturer (P176) statement already exists. 
 
-3. Create a plain text file which can be used in Quickstatements - [https://www.wikidata.org/wiki/Help:QuickStatements](see Quickstatements help) to bulk upload statements of 
+3. Create a plain text file which can be used in Quickstatements - see [Quickstatements help](https://www.wikidata.org/wiki/Help:QuickStatements to bulk upload statements in the format: 
 
 ship -> Manufacturer -> Yard 
 
@@ -27,5 +27,4 @@ one line per ship.
 Even better to add refererences and date retrieved too. 
 
 This can then be used by an authenticated Wikidata user to upload via Quickstatements to update Wikidata ship items. 
-
 
