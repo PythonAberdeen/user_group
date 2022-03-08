@@ -1,4 +1,4 @@
-# APUG Feb 2022 - Intermediate Challenge
+# APUG March 2022 - Intermediate Challenge
 
 ## Introduction
 
