@@ -16,7 +16,8 @@ If there is a word which won't fit on a line at all, break it with a hyphen. Rem
  'Voldemort ']
 """
 
-
+# this function does literally what was asked in the README, means it splits the whole string after {length} items.
+# but this is not what was asked in the original example by Robert Martin.
 def wordwrap(stw, length):
     count = 0
     split_string = []
