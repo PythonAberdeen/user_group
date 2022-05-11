@@ -10,7 +10,7 @@ matplotlib == 3.1.1
 
 # covid19World/covid19.py: 8
 # covid19World/util_functions.py: 4
-numpy == 1.17.2
+numpy == 1.21.0
 
 # covid19World/covid19.py: 7
 # covid19World/util_functions.py: 3
