@@ -4,7 +4,7 @@
 
 In this month's session, we will practice a "code kata".
 
-*"Code Kata is an attempt to bring this element of practice to software development. A kata is an exercise in karate where you repeat a form many, many times, making little improvements in each. The intent behind code kata is similar. Each is a short exercise (perhaps 30 minutes to an hour long)."* - [CodeKata.com](codekata.com)
+*"Code Kata is an attempt to bring this element of practice to software development. A kata is an exercise in karate where you repeat a form many, many times, making little improvements in each. The intent behind code kata is similar. Each is a short exercise (perhaps 30 minutes to an hour long)."* - [CodeKata.com](https://codekata.com)
 
 ## Tips
 
