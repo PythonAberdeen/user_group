@@ -4,23 +4,19 @@
 
 Our Aberdeen Python Group runs on the second Wednesday of every month. This will be fully online for now and we'll use Zoom as the platform.
 
-Next Event: *Wednesday, 11th April 2022*, 6:30 pm to 9:00 pm
+Next Event: *Wednesday, 13th July 2022*, 6:30 pm to 9:00 pm
 
 See our [website](https://pythonaberdeen.github.io) for more details and how to register. 
 
-In this month's session, we will practice a "code kata".
+**Creating GUIs with PySimpleGUI - Mike Driscoll**
 
-"Code Kata is an attempt to bring this element of practice to software development. A kata is an exercise in karate where you repeat a form many, many times, making little improvements in each. The intent behind code kata is similar. Each is a short exercise (perhaps 30 minutes to an hour long)." - [CodeKata.com](www.codekata.com)
+Learn how to create cross-platform GUIs using Python and PySimpleGUI. In this talk, you will learn the basics of PySimpleGUI, and Mike will also show you how to access great demos and show a couple of small applications.
 
-- **6:00 pm** Food (physical space)
-- **6:30 pm** Code kata practice
-- **8:30 pm** Kata round-ups
+Mike, who will join us live from Iowa, USA, has been a Python developer for over a decade. He has been writing about Python for many years on his blog, The Mouse vs the Python. He has recently restarted his Python Youtube channel too. His readers got him interested in writing books about Python and now Mike has ten books published! You can find Mike on Twitter at https://twitter.com/driscollis.
 
 ## Group Activities
 
-Kata activities for May 2021 are available here.
-
-- [Challenge Problems](https://github.com/PythonAberdeen/user_group/tree/master/2022-05/README.md)
+After the talks we will have group coding challenges based on using PySimpleGui to build a small application.
 
 ## Social Media
 
