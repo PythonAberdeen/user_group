@@ -1,4 +1,4 @@
-# Beginners Challenge
+# General Challenge
 
 This month we have a general challenge suitable for all levels. The challenge is hosted on Google Colabratory.
 
