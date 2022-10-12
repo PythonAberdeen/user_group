@@ -20,7 +20,16 @@ def function_name (parameters):
 	"""docstring""" (optional but good practice)
 	#statement(s)
 	RETURN expression
-</pre>pre>
+</pre>
+
+
+We _call_ the function by writing a line of code which includes the function name, and any parameters. 
+
+<pre>
+>> function_name (parameters)
+	</pre>
+The function must have been created in code before we _call_ it. 
+
 
 ## Create your first function
 
