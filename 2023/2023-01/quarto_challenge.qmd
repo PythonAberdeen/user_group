@@ -1,0 +1,108 @@
+---
+title: "Abandon Jupyter and embrace Quarto: Challenges"
+author: "Arturo Regalado"
+date: "10 January 2023"
+format:
+  html:
+    code-fold: true
+    toc: true
+    number-sections: false
+
+jupyter: python3
+---
+
+The following challenges are designed for you to practice the very basics of Quarto. Hopefully you will see how easy it is to incorporate it into your workflow. 
+
+For questions you can contact me in Twitter [@arturoregalado](https://twitter.com/arturoregalado) or [LinkedIn](https://www.linkedin.com/in/arturoregalado/)
+
+
+# Setup
+
+## Install Quarto and Microsoft Visual Studio Code
+
++ I assume you have Python installed in your machines. If not, install Python. For those using R via R Studio you can begin using Quarto right away as if it was R Markdwon. The [documentation](https://quarto.org/docs/get-started/) is very clear. 
+
+1. [Download](https://code.visualstudio.com/) visual studio code.
+2. Download Quarto's CLI tools using the following [link](https://quarto.org/docs/get-started/).
+
+3. To finish setting up, in VS Code make sure to have the Python and Quarto Extensions as described in the previous link. 
+
+# Challenge 1. Installation and minimal example
+
+*Objective:* make sure everything was installed properly. 
+
+Steps:
+
+1. Create a new file and name it `hello.qmd`.
+2. Create a python virtual environment and `pip install pandas numpy matplotlib`. Follow [this link](https://realpython.com/python-virtual-environments-a-primer/) for creation and activation of venv.
+3. Copy the following code for a sample Quarto.
+
+````
+    ---
+    title: "Quarto Basics"
+    format:
+    html:
+        code-fold: true
+    jupyter: python3
+    ---
+
+    For a demonstration of a line plot on a polar axis, see @fig-polar.
+
+    ```{{python}}
+    #| label: fig-polar
+    #| fig-cap: "A line plot on a polar axis"
+
+    import numpy as np
+    import matplotlib.pyplot as plt
+
+    r = np.arange(0, 2, 0.01)
+    theta = 2 * np.pi * r
+    fig, ax = plt.subplots(
+    subplot_kw = {'projection': 'polar'} 
+    )
+    ax.plot(theta, r)
+    ax.set_rticks([0.5, 1, 1.5, 2])
+    ax.grid(True)
+    plt.show()
+    ```
+````
+
+4. Render the file by going to the command palette (`ctrl+shift+p` in Win or `Cmd+shift+p` in Mac) in vscode and typing `Quarto: Render`
+5. Viola!
+
+# Challenge 2. Data analysis workflow with narrative
+
+Using the above minimal example as template, try doing some simple data analysis interactively with vscode and Quarto.
+
+Use the file `oil_price_historical.csv` which contains data for the price of oil since the late 1980's. 
+
+To engage interactive mode within Quarto and run code remember to use the syntax below where everything inside is the code. You will see in vscode a run cell command that will open the interactive window. You will likely need some plugins but vscode will let you know and install them automatically. 
+
+
+
+
+````
+```{{python}}
+# your code here
+```
+````
+
+
+Some ideas:
+
+1. Load the data into a pandas dataframe or series. Show the first and last 5 rows. 
+2. What is the average oil price?
+3. Make a line plot and show the code used to produce the plot. 
+4. In a small paragraph summarize your findings. 
+
+# Challenge 3. Authoring documents 
+
+See the [Authoring tutorial](https://quarto.org/docs/get-started/authoring/vscode.html) from the Quarto team and try some of the authoring tools shown. 
+
+For example:
+
+1. Instead of rendering as HTML your files from Challenge 1 and 2 why not render as Microsoft Word. You can do PDF but will need a LaTeX installation as far as I know.
+
+2. Add a math formula that describes the general calculation of a mean. 
+
+3. Give sections to you document and use some cross-references. 

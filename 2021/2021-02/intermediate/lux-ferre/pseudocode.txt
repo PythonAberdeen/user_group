@@ -1,0 +1,9 @@
+for 25 gestures (can be generalised):
+
+if p1 = p2: tie
+if p1 <= 13:
+	if p2 in range(p1+1, p1+12):
+		p1 win
+else:
+	if p2 in range(p1-12, p1-1):
+		p2 win

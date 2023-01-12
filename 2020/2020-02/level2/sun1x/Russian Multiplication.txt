@@ -1,0 +1,34 @@
+def russian_multiplication(a, b):
+   
+    arr = [a, b]
+    sub_arr = []
+    ##np_arr = np.array([])
+    
+    acc = 0
+    total = 0
+   
+    while (a>1):
+         a = int(a/2)
+         b = int(b*2)
+         arr.append([a, b])    
+         
+         if (a % 2) != 0:  ##Not even
+            total = total + b
+            acc += 1
+            sub_arr.append([a,b]) 
+            ##np_arr = np.append(np_arr,[a,b], axis=0)
+            
+    ##np_arr = np_arr.reshape(acc, 2)
+    
+    result = np.sum(sub_arr, axis=0)
+    
+    print("Array:")
+    print(arr)
+    print("Selected rows in array:")
+    print(sub_arr)
+    print("Total should be:", total)
+    print("And I got: ", result[1])
+    ##print(np_arr)
+    ##print(np.sum(np_arr, axis=0))
+    
+russian_multiplication(42, 1337)
