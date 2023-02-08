@@ -2,7 +2,7 @@
 
 ## Event Format
 
-Our Aberdeen Python Group runs on the second Wednesday of every month. This will be fully online for now and we'll use Zoom as the platform.
+Our Aberdeen Python Group runs on the second Wednesday of every month. We are back to having physical meetings and have join remotely via zoom for anyone where that would work better. 
 
 Next Event: *Wednesday,8th February 2023*, 6:00 pm to 9:00 pm
 
