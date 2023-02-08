@@ -8,11 +8,6 @@ Next Event: *Wednesday,8th February 2023*, 6:00 pm to 9:00 pm
 
 See our [website](https://pythonaberdeen.github.io) for more details and how to register. 
 
-
-## Group Activities
-
-After the talks we will have group coding challenges based on using PySimpleGui to build a small application.
-
 ## Social Media
 
 - [Slack](https://join.slack.com/t/python-aberdeen/shared_invite/zt-fe4vr06d-TavzVV4ZusCxYLEdCqxsyQ)
