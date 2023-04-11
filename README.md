@@ -2,16 +2,11 @@
 
 ## Event Format
 
-Our Aberdeen Python Group runs on the second Wednesday of every month. This will be fully online for now and we'll use Zoom as the platform.
+Our Aberdeen Python Group runs on the second Wednesday of every month. We are back to having physical meetings and have option to join remotely via zoom for anyone where that would work better. 
 
-Next Event: *Wednesday, 12th October 2022*, 6:00 pm to 9:00 pm
+Next Event: *Wednesday,8th February 2023*, 6:00 pm to 9:00 pm
 
 See our [website](https://pythonaberdeen.github.io) for more details and how to register. 
-
-
-## Group Activities
-
-After the talks we will have group coding challenges based on using PySimpleGui to build a small application.
 
 ## Social Media
 
