@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    
+    <title>Network Capture + Debugging</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Robert McWilliam">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- {# <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> #} -->
+    
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/solarized.css" id="theme">
+    
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="plugin/highlight/zenburn.css">
+    
+    <!-- Printing and PDF exports -->
+    <!-- <script> -->
+    <!--   var link = document.createElement( 'link' ); -->
+    <!--   link.rel = 'stylesheet'; -->
+    <!--   link.type = 'text/css'; -->
+    <!--   link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css'; -->
+    <!--   document.getElementsByTagName( 'head' )[0].appendChild( link ); -->
+    <!-- </script> -->
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>Python async</h1>
+        </section>
+        <section>
+          <p class="r-fit-text">Why?</p>
+          <h3 class="r-fit-text fragment">Do something else while waiting</h3>
+          <aside class="notes">
+            <p>Why are any of us here?</p>
+            <p>We will leave aside the existential parts of why anything matters and focus in on:</p>
+            <p>Why would you use async?</p>
+            <p>Lets python programs do something elese while waiting</p>
+            <p>Why I wanted to talk about it: async has changed over the years/languages. This was an excuse to spend some time getting it straight in my head. Hopefully Ive got enough understanding now that I can explain it. We are about to find out if that is actually the case.</p>
+            <p>Might be quite a short talk - theres not that much to overall concepts of async. Devil is in the details. How long this goes on for will depend on if (or how often) I head off down rabbit hole of some detail. </p>
+            <p>I think what I'm going to tell you is now the right way to do things, but that has changed a bit in the last few python versions other documentations might have different ways. Or you might be used to different ways if you learned this before current versions</p>
+        </section>
+        <section>
+          <h2>Playing chess</h2>
+          <img class="r-stretch" src="img/ChessSet.jpg" />
+          <p style="font-size:0.25em;">Picture by <a href="https://en.wikipedia.org/wiki/User:Alight"> Alan Light <a href="http://creativecommons.org/licenses/by-sa/3.0/"> CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=20299">Link</a></p>
+          <aside class="notes">
+            <p>For non-programming analogy of async vs synchronous processing</p>
+            <p>Stolen from talk by Miguel Grinberg at Pycon 2017.</p>
+            <p>Chess grandmaster playing exhibition matches against players who are not as good as they are</p>
+            <p>Say Grandmaster needs to think for 5 seconds before moving - oponents 55 seconds</p>
+            <p>So 1 minute for each pair of moves</p>
+            <p>If 30 pairs of moves per game, each game would be 30 minutes</p>
+            <p>If play the games synchronously: 2 games/hour</p>
+            <p>But grandmaster is mostly just waiting for other player to move</p>
+            <p>They could play multiple games at the same time: if its still 5 seconds/move for them then could make moves in 11 other games and get back to first game as opponent makes their move.</p>
+            <p>Would then be 24 games/hour</p>
+            <p>Would be cost of context switch</p>
+              
+        </section>
+        <section>
+          <h1>Concurrency</h1>
+          <h4>vs</h4>
+          <h1>Parallelism</h1>
+          <aside class="notes">
+            <p>async is about concurrent tasks not parallel execution</p>
+            <p>Zoomed out there can be multiple tasks existing at the same time and they can all be making progress</p>
+            <p>But at fine grain only 1 task will actually be executing at a time</p>
+            <p>Swap around which one that is</p>
+            <p>Single operating system thread/process python runtime executes all async tasks</p>
+          </aside>
+        </section>
+        <section>
+          <h1 class="r-fit-text">Cooperative</h1>
+          <aside class="notes">
+            <p>tasks choose when they give up control for other tasks to run</p>
+            <p>Can simplify code a lot as no need for locking for parallel access to shared resources</p>
+            <p>No cost of OS context switch (though there are still async context switches)</p>
+            <p>One task running for a long time without giving up control will block other tasks</p>
+          </aside>
+        </section>
+        <section>
+          <h1 class="r-fit-text">I/O</h1>
+          <aside class="notes">
+            <p>Mostly useful for I/O</p>
+            <p>Right there in the name of main module: asyncio</p>
+            <p>Can also be used for control loop where processing might happen on other cores (esp. if that is calling out to some non-python lib)</p>
+            <p>Even if completely CPU bound and do not want to spread over multicores async can be useful to split different processing into different tasks to make it easier for people to follow</p>
+          </aside>
+        </section>
+        <section>
+          <h1>task</h1>
+          <h1 class="fragment">event loop</h1>
+          <h1 class="fragment">tasks yield control</h1>
+        </section>
+        <section>
+          <section>
+            <h1>2 keywords</h1>
+            <aside class="notes">
+              <p>This is where could be very short talk</p>
+          </section>
+          <section>
+            <p class="r-fit-text">async</p>
+            <aside class="notes">
+              <p>Label a function as being async.</p>
+              <p>Then needs to be called/awaited from other async function or by adding to an event loop</p>
+            </aside>
+          </section>
+          <section>
+            <p class="r-fit-text">await</p>
+            <aside class="notes">
+              <p>Used in an async function to yield to other tasks until the thing being awaited completes</p>
+            </aside>
+          </section>
+        </section>
+        <section>
+          <h3 class="r-fit">Hello world</h3>
+          <pre><code data-trim>
+import asyncio
+
+async def world():
+    await asyncio.sleep(1)
+    print("world")
+
+async def hello():
+    print("Hello")
+    
+async def main():
+    await asyncio.gather(world(), hello())
+    
+asyncio.run(main())
+          </code></pre>
+        </section>
+        <section>
+          <section>
+            <pre class="python"><code data-trim>
+import time, asyncio
+                
+async def pause(num):
+    print("Start", num)
+    await asyncio.sleep(1)
+    print("Done", num)
+
+async def multi_pause():
+    await asyncio.gather(pause(1), pause(2), pause(3))
+
+start = time.perf_counter()
+asyncio.run(multi_pause())
+elapsed = time.perf_counter() - start
+print(f"Execution took {elapsed:0.2f} seconds")               
+            </code></pre>
+          </section>
+          <section>
+            <pre><code data-trim>
+Start 1
+Start 2
+Start 3
+Done 1
+Done 2
+Done 3
+Execution took 1.00 seconds
+            </code></pre>
+          </section>
+        </section>
+        <section>
+          <section>
+            <pre class="python"><code data-trim>
+import asyncio, time, random
+
+async def step1(num):
+    length = random.randint(1, 5)
+    print(f"step1 start {num}, sleeping for {length} seconds")
+    await asyncio.sleep(length)
+    return length
+
+async def step2(num, s1):
+    print(f"step2 start {num}")
+    await asyncio.sleep(s1)
+    return s1
+
+async def chain(num):
+    s1 = await step1(num)
+    await step2(num, s1)
+    print(f"Done {num}")
+
+async def main():
+    await asyncio.gather(*(chain(n) for n in range(4)))
+
+start = time.perf_counter()    
+asyncio.run(main())
+elapsed = time.perf_counter() - start
+print(f"Execution took {elapsed} seconds")
+            </code></pre>
+          </section>
+          <section>
+            <pre><code data-trim>
+step1 start 0, sleeping for 0 seconds
+step1 start 1, sleeping for 1 seconds
+step1 start 2, sleeping for 0 seconds
+step1 start 3, sleeping for 3 seconds
+step2 start 0
+step2 start 2
+Done 0
+Done 2
+step2 start 1
+Done 1
+step2 start 3
+Done 3
+Execution took 6.003208810929209 seconds
+            </code></pre>
+          </section>
+        </section>
+        <section>
+          <h2>Create task</h2>
+          <pre class="python"><code data-trim>
+              t = asyncio.create_task(task())
+          </code></pre>
+          <pre class="python fragment"><code data-trim>
+              tasks = [asyncio.create_task(task(n)) for n in range(5)]
+              tasks += [asyncio.create_task(task2(n)) for n in range(5)]
+              await asyncio.gather(*tasks)
+          </code></pre>
+          <aside class="notes">
+            <p>Dont have to immediate await a task when we create it.</p>
+            <p>Useful to set up different types of tasks</p>
+            <p>Could await something else that could let tasks start executing before getting to the gather</p>
+          </aside>
+        </section>
+        <section>
+          <h2>Communicating coroutines</h2>
+          <pre class="python fragment"><code data-trim>
+              q = asyncio.Queue()
+          </code></pre>
+          <pre class="python fragment"><code data-trim>
+              await q.put(msg)
+          </code></pre>
+          <pre class="python fragment"><code data-trim>
+              msg = await q.get()
+          </code></pre>
+          <pre class="python fragment"><code data-trim>
+              await q.join()
+          </code></pre>
+        </section>
+        <section>
+          <h2>Fetch JSON</h2>
+          <pre class="python"><code data-trim>
+import asyncio, aiohttp
+
+async def fetch():
+    async with aiohttp.ClientSession() as session:
+        async with session.get("https://opendata.scot/datasets.json") as resp:
+            datasets = await resp.json()
+    return datasets
+
+d = asyncio.run(fetch())
+print(f"opendata.scot has {len(d)} datasets")
+          </code></pre>
+          <aside class="notes">
+            <p>Using async with. Similar to with for context manager but the __enter__ and __exit__ are async so can await in them</p>
+            <p>Not much point to doing this as async when we are only making one request.</p>
+            <p>If we had more requests to make or other processing to do could use async with some of the other patterns to do more concurrently</p>
+            
+          </aside>
+        </section>
+        <section>
+          <h2>Web server</h2>
+          <pre class="python"><code data-trim>
+from aiohttp import web
+
+async def handle(request):
+    name = request.match_info.get('name', "Anonymous")
+    text = "Hello, " + name
+    return web.Response(text=text)
+
+app = web.Application()
+app.add_routes([web.get('/', handle),
+                web.get('/{name}', handle)])
+
+if __name__ == '__main__':
+    web.run_app(app)
+          </code></pre>
+          <aside class="notes">
+            <p>I make that 10 lines of code</p>
+          </aside>
+        </section>
+        <section>
+          <h1>Long processing</h1>
+          <pre class="python"><code data-trim>
+              await asyncio.sleep(0)
+          </code></pre>
+          <aside class="notes">
+            <p>If have a task that needs to do some long running CPU operations can periodically release back to the event loop to give other tasks a chance to run</p>
+            <p>This is you telling the eventloop that you want to continue immediately</p>
+            <p>async sleeps set a minimum time for how long to sleep - it can be (a lot) longer if other tasks don't release back to event loop at a convenient point</p>
+          </aside>
+        </section>
+        <section>
+          <h1 class="r-fit-text">Questions?</h1>
+          <h1>Corrections?</h1>
+          <h1>Comments?</h1>
+        </section>
+        <section>
+          <h1>Challenges</h1>
+          <h3>1: Find most accessed wikipedia page</h3>
+          <h4>(at some point in 2016)</h4>
+          <h3>2: Make a server to query opendata.scot datasets</h3>
+          <h3><s>3: Get messages from my terrible API</s></h3>
+      </div>
+    </div>
+    
+     <script src="dist/reveal.js"></script>
+     <script src="plugin/highlight/highlight.js"></script>
+     <script src="plugin/notes/notes.js"></script>
+     <script>
+
+       Reveal.initialize({
+       controls: true,
+       progress: true,
+       history: true,
+       center: true,
+       
+       plugins: [ RevealHighlight, RevealNotes ]
+       });
+
+     </script>
+
+    
+  </body>
+</html>
