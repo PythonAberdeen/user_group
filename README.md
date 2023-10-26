@@ -26,7 +26,7 @@ The usual format is:
 
 ## Social Media
 
-- Slack *(sorry, invite link to be fixed)*
+- [Slack](https://join.slack.com/t/codethecity/shared_invite/zt-ebfpmtdt-wMnHGebBCNJTCEInaYCwNw)
 - [𝕏](https://twitter.com/pythonaberdeen)
 - [Website](https://pythonaberdeen.github.io)
 
