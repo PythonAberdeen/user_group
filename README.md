@@ -4,14 +4,14 @@
 
 Our Aberdeen Python Group runs on the second Wednesday of every month. We are back to having physical meetings and have option to join remotely via zoom for anyone where that would work better. 
 
-Next Event: *Wednesday,8th February 2023*, 6:00 pm to 9:00 pm
+Next Event: *Wednesday, 8th November 2023*, 6:00 pm to 9:00 pm
 
-See our [website](https://pythonaberdeen.github.io) for more details and how to register. 
+[Register for a physical space or online ticket on Tito](https://ti.to/code-the-city/apug-nov-2023)
 
 ## Social Media
 
 - [Slack](https://join.slack.com/t/python-aberdeen/shared_invite/zt-fe4vr06d-TavzVV4ZusCxYLEdCqxsyQ)
-- [Twitter](https://twitter.com/pythonaberdeen)
+- [X](https://twitter.com/pythonaberdeen)
 - [Website](https://pythonaberdeen.github.io)
 
 ## Past Events
