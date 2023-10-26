@@ -18,9 +18,11 @@ There is an option to join virtually via Zoom.
 
 The usual format is:
 
-* 6:00 pm Networking over pizza and beer (physical tickets only)
-* 6:30 pm Talk
-* 7:00 pm Coding challenges
+* 6:00 pm - Networking over pizza and beer (physical tickets only)
+* 6:30 pm - Talk
+* 7:15 pm - Coding challenges
+* 8:30 pm - Roundup
+* 9:00 pm - End
 
 ## Social Media
 
