@@ -1,24 +1,30 @@
 # Aberdeen Python User Group
 
+## Next Event
+
+**"Gradual Static Typing in Python"** - [Dr Lee A. Christie](https://techhub.social/@0x1ac)
+
+*Wednesday, 8th November 2023*, 6:00 pm to 9:00 pm
+
+Register for a physical space or online ticket: [Tickets on Tito](https://ti.to/code-the-city/apug-nov-2023)
+
+Coding challenges: [Nov '23 Coding Challenges](https://github.com/PythonAberdeen/user_group/tree/master/2023/2023-11)
+
 ## Event Format
 
 Our Aberdeen Python Group runs on the second Wednesday of every month in the ONE Tech Hub.
 
 There is an option to join virtually via Zoom.
 
-* 18:00 Networking over pizza and beer (physical tickets only)
-* 18:30 Talk
-* 19:00 Coding challenges
+The usual format is:
 
-## Next Event
-
-Next Event: *Wednesday, 8th November 2023*, 6:00 pm to 9:00 pm
-
-[Register for a physical space or online ticket on Tito](https://ti.to/code-the-city/apug-nov-2023)
+* 6:00 pm Networking over pizza and beer (physical tickets only)
+* 6:30 pm Talk
+* 7:00 pm Coding challenges
 
 ## Social Media
 
-- Slack *(invite link to be fixed)*
+- Slack *(sorry, invite link to be fixed)*
 - [𝕏](https://twitter.com/pythonaberdeen)
 - [Website](https://pythonaberdeen.github.io)
 
@@ -28,6 +34,8 @@ Previous months' challenge problems are available above on the [user_group repo]
 
 Find our list of [past speakers and slides here](https://github.com/PythonAberdeen/user_group/wiki/Speakers)
 
-## Challenges
+## Beginner Challenges
 
-[Beginner-friendly Challenge Problems](beginner.md) are listed here.
+Coding challenges for all levels will be available above (see Next Event).
+
+We have also added some [beginner-friendly challenge problems](beginner.md) which are not tied to a specific event.
