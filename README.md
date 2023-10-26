@@ -16,7 +16,7 @@ Next Event: *Wednesday, 8th November 2023*, 6:00 pm to 9:00 pm
 
 ## Past Events
 
-[Previous months'](/previous) challenge problems are also available.
+Previous months' challenge problems are available above on the user_group repo grouped by year.
 
 [Beginner-friendly Challenge Problems](beginner.md) are listed here.
 
