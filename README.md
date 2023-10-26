@@ -11,7 +11,7 @@ Next Event: *Wednesday, 8th November 2023*, 6:00 pm to 9:00 pm
 ## Social Media
 
 - [Slack](https://join.slack.com/t/python-aberdeen/shared_invite/zt-fe4vr06d-TavzVV4ZusCxYLEdCqxsyQ)
-- [X](https://twitter.com/pythonaberdeen)
+- [𝕏](https://twitter.com/pythonaberdeen)
 - [Website](https://pythonaberdeen.github.io)
 
 ## Past Events
