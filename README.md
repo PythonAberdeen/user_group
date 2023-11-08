@@ -8,7 +8,7 @@
 
 Register for a physical space or online ticket: [Tickets on Tito](https://ti.to/code-the-city/apug-nov-2023)
 
-Coding challenges: [Nov '23 Coding Challenges](https://github.com/PythonAberdeen/user_group/tree/master/2023/2023-11)
+Coding challenges: [Nov '23 Coding Challenges](https://github.com/PythonAberdeen/user_group/tree/master/2023/2023-11/README.md)
 
 ## Event Format
 
