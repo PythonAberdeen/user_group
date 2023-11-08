@@ -25,7 +25,7 @@ Check [the official cheat sheet for mypy](https://mypy.readthedocs.io/en/stable/
 
 ## Challenge 1 - Beginner
 
-Download this challenge file [challenge1.py](challenge1.py).
+Download this challenge file [challenge1.py](https://raw.githubusercontent.com/PythonAberdeen/user_group/master/2023/2023-11/challenge1.py).
 
 You are *not* intended to run the Python code.
 
@@ -44,7 +44,7 @@ After you add type hints, all 4 incorrect calls should be detected as errors, an
 
 ## Challenge 2 - Intermediate
 
-Download this challenge file [challenge2.py](challenge2.py).
+Download this challenge file [challenge2.py](https://raw.githubusercontent.com/PythonAberdeen/user_group/master/2023/2023-11/challenge2.py).
 
 This is a small program which reads takes a string and finds the median of the number in the string.
 
