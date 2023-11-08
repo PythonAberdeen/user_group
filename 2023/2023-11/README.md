@@ -23,6 +23,10 @@ conda install mypy
 
 Check [the official cheat sheet for mypy](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html) for help!
 
+## Aberdeen Python User Group Slack
+
+By the way, you should join the [Slack](https://join.slack.com/t/codethecity/shared_invite/zt-ebfpmtdt-wMnHGebBCNJTCEInaYCwNw) for CodeTheCity and say hi in the `#apug` channel!
+
 ## Challenge 1 - Beginner
 
 Download this challenge file [challenge1.py](https://raw.githubusercontent.com/PythonAberdeen/user_group/master/2023/2023-11/challenge1.py).
