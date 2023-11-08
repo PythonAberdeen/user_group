@@ -1,6 +1,6 @@
 # Gradual Static Typing in Python
 
-This is a placeholder page for the coding challenges for November 2023 relating to *Gradual Static Typing in Python*
+This is the page for the coding challenges for November 2023 relating to *Gradual Static Typing in Python*
 
 ## Installing mypy
 
