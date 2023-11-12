@@ -2,13 +2,13 @@
 
 ## Next Event
 
-**"Gradual Static Typing in Python"** - [Dr Lee A. Christie](https://techhub.social/@0x1ac)
+**"The Importance of Testing your Python Code"** - Arturo Regalado
 
-*Wednesday, 8th November 2023*, 6:00 pm to 9:00 pm
+*Wednesday, 13th December 2023*, 6:00 pm to 9:00 pm
 
-Register for a physical space or online ticket: [Tickets on Tito](https://ti.to/code-the-city/apug-nov-2023)
+Register for a physical space or online ticket: [Tickets on Tito](https://ti.to/code-the-city/apug-dec-2023)
 
-Coding challenges: [Nov '23 Coding Challenges](https://github.com/PythonAberdeen/user_group/tree/master/2023/2023-11/README.md)
+Coding challenges: [Dec '23 Coding Challenges](https://github.com/PythonAberdeen/user_group/tree/master/2023/2023-12/README.md)
 
 ## Event Format
 
