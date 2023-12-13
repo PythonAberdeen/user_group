@@ -1,3 +1,3 @@
 # Dec 2023 Challenges
 
-(TBC)
+Details and challenges can be found here: https://github.com/artregalado/pytest-talk-apug
