@@ -8,7 +8,7 @@
 
 Register for a physical space or online ticket: [Tickets on Tito](https://ti.to/code-the-city/)
 
-[Coding challenges](https://github.com/PythonAberdeen/user_group/tree/master/2024/2024-02)
+[Coding challenge](https://github.com/PythonAberdeen/user_group/tree/master/2024/2024-02)
 
 ## Event Format
 
