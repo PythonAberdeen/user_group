@@ -4,11 +4,11 @@
 
 **"The Importance of Testing your Python Code"** - Arturo Regalado
 
-*Wednesday, 13th December 2023*, 6:00 pm to 9:00 pm
+*Wednesday, 14th February 2024*, 6:00 pm to 9:00 pm
 
-Register for a physical space or online ticket: [Tickets on Tito](https://ti.to/code-the-city/apug-dec-2023)
+Register for a physical space or online ticket: [Tickets on Tito](https://ti.to/code-the-city/)
 
-Coding challenges: [Dec '23 Coding Challenges](https://github.com/PythonAberdeen/user_group/tree/master/2023/2023-12/README.md)
+[Coding challenges](https://github.com/PythonAberdeen/user_group/tree/master/2024/2024-02)
 
 ## Event Format
 
