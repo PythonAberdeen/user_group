@@ -2,7 +2,7 @@
 
 ## Next Event
 
-**"The Importance of Testing your Python Code"** - Arturo Regalado
+**"Spreading the word in Python"** - Carlos Moreno-Garcia
 
 *Wednesday, 14th February 2024*, 6:00 pm to 9:00 pm
 
