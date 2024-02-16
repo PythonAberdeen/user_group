@@ -1,5 +1,5 @@
 # SpreadingTheWord
 
-This solution does NOT work, since the paths are designed for my repository...
+Please go to [this repository](https://github.com/carlosfmorenog/SpreadingTheWord) to find the activity and the solution.
 
-If you want the working solution, use [this version](https://github.com/carlosfmorenog/SpreadingTheWord/)
+A second dolution provided by one of the attendees is presented [here](https://github.com/GabeeCoding/SpreadingTheWord).
