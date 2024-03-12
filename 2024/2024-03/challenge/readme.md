@@ -14,6 +14,7 @@ Pick a school from the list below. Have a look at the online shops of suppliers 
 |Lochside Academy   |https://www.pomprintdesigns.co.uk/?store-page=Longside-School-c109697268   |
 |St Machar Academy   |https://www.pomprintdesigns.co.uk/?store-page=St-Machar-Academy-c109628746   |
 
+Given that the supplier listed for each is the same, how easy is it to combine these into one scraper? 
 
 ### Option 2
 
@@ -22,6 +23,9 @@ Alternatively, choose the supplier of non-branded uniform items from the list be
 * [Asda](https://direct.asda.com/george/school-uniform/D10,default,sc.html)
 * [Sainsburys](https://tuclothing.sainsburys.co.uk/browse/school-uniform/c:842024/)
 * [Tesco](https://www.tesco.com/zones/clothing/school-uniform)
+
+### Upload your code
+Clone this repo, and add your suggested solutions to the / solutions directory. Make a pull request and we'll add it to the repo.
 
 ## Additional
 

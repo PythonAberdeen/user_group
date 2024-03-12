@@ -1,0 +1,1 @@
+Clone this repo, and add your suggested solutions to this _solutions_ directory. Make a pull request and we'll add it to the repo.
