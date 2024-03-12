@@ -21,10 +21,8 @@ Choose a non-branded supplier from the list below. Try to scrape a list of items
 
 * [Asda](https://direct.asda.com/george/school-uniform/D10,default,sc.html)
 * [Sainsburys](https://tuclothing.sainsburys.co.uk/browse/school-uniform/c:842024/)
-* [Tesco](https://www.tesco.com/zones/clothing/school-uniform 
+* [Tesco](https://www.tesco.com/zones/clothing/school-uniform)
 
-)
-* 
 ## Additional
 
 If you manage to scrape the data, think about how you would save it (eg in a file with the date, supplier name, school - if appropriate etc)
