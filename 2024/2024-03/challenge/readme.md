@@ -1,12 +1,12 @@
 # Aberdeen Python User Group 13 March 2024
 
-Please refer to the Jupyter Notebook from Ian's talk tonight for an introduction to web scraping and some of the fundamental libraries to use. 
+Please refer to the [Jupyter Notebook](https://github.com/PythonAberdeen/talks/blob/master/2024-Mar/Scraping%20with%20Python.ipynb) from Ian's talk tonight for an introduction to web scraping and some of the fundamental libraries to use. 
 
 ## Challenge
 
 ### Option 1
 
-Pick a school from the list below. Have a look at the branded school uniform supplier(s). Ttry to scrape the items offered - with a description and cost per item.
+Pick a school from the list below. Have a look at the online shops of suppliers of branded school uniform items. Try to scrape the items offered - with a description and cost per item.
 
 |School |Supplier|
 |---|---|
@@ -17,7 +17,7 @@ Pick a school from the list below. Have a look at the branded school uniform sup
 
 ### Option 2
 
-Choose a non-branded supplier from the list below. Try to scrape a list of items and costs. 
+Alternatively, choose the supplier of non-branded uniform items from the list below. Try to scrape a list of items and costs. 
 
 * [Asda](https://direct.asda.com/george/school-uniform/D10,default,sc.html)
 * [Sainsburys](https://tuclothing.sainsburys.co.uk/browse/school-uniform/c:842024/)
