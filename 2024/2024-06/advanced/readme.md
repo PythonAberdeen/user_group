@@ -8,7 +8,7 @@ Write a program that solves a given 9x9 Sudoku puzzle. The program should take a
 3. Each of the nine 3x3 subgrids must contain the numbers 1-9 without repetition.
 
 **Example Input:**
-
+<pre>
 [
 [5, 3, 0, 0, 7, 0, 0, 0, 0],
 [6, 0, 0, 1, 9, 5, 0, 0, 0],
@@ -20,10 +20,10 @@ Write a program that solves a given 9x9 Sudoku puzzle. The program should take a
 [0, 0, 0, 4, 1, 9, 0, 0, 5],
 [0, 0, 0, 0, 8, 0, 0, 7, 9]
 ]
-
+</pre>
 
 **Example Output:**
-
+<pre>
 [
 [5, 3, 4, 6, 7, 8, 9, 1, 2],
 [6, 7, 2, 1, 9, 5, 3, 4, 8],
@@ -35,7 +35,7 @@ Write a program that solves a given 9x9 Sudoku puzzle. The program should take a
 [2, 8, 7, 4, 1, 9, 6, 3, 5],
 [3, 4, 5, 2, 8, 6, 1, 7, 9]
 ]
-
+</pre>
 
 **Hint:** Use a backtracking algorithm to try filling numbers in the empty cells and backtrack if a number violates the Sudoku rules.
 
@@ -53,7 +53,7 @@ Extend your Sudoku solver by solving the N-Queens problem for an `n x n` chessbo
 
 
 **Example Output:**
-
+<pre>
 [
 [".", "Q", ".", "."],
 [".", ".", ".", "Q"],
@@ -61,7 +61,7 @@ Extend your Sudoku solver by solving the N-Queens problem for an `n x n` chessbo
 [".", ".", "Q", "."]
 ]
 
-
+</pre>
 **Hint:** Use a backtracking algorithm to place queens on the board one by one and check for conflicts.
 
 ---
