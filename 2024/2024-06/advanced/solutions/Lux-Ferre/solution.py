@@ -1,6 +1,8 @@
 import re
 import os
+import math
 import collections
+
 
 class UI:
 	def __init__(self):
@@ -55,7 +57,7 @@ class UI:
 				self.clear_terminal()
 				print("Invalid choice. Try again.")
 				self.print_beginner_menu()
-				self.get_beginner_choice()
+				return self.get_beginner_choice()
 
 	def print_intermediate_menu(self):
 		print("Which solution do you wish to use?")
@@ -76,7 +78,25 @@ class UI:
 				self.clear_terminal()
 				print("Invalid choice. Try again.")
 				self.print_intermediate_menu()
-				self.get_intermediate_choice()
+				return self.get_intermediate_choice()
+
+	def print_advanced_menu(self):
+		print("Which solution do you wish to use?")
+		print("0) Back to Difficulty Choice")
+		print("1) Sudoku Solver")
+
+	def get_advanced_choice(self):
+		choice = input("Type menu number here: ")
+		match choice:
+			case "0":
+				return "back"
+			case "1":
+				return "sudoku"
+			case _:
+				self.clear_terminal()
+				print("Invalid choice. Try again.")
+				self.print_advanced_menu()
+				return self.get_advanced_choice()
 
 	def get_user_input(self):
 		print("Type in your input.")
@@ -111,13 +131,19 @@ class UI:
 		print("is:")
 		print(f"\t {solution['output']}")
 
+	def print_sudoku_solution(self, solution: dict):
+		print(f"The solution to grid:")
+		sudoku.print_grid(solution["input"])
+		print(f"done in {solution['passes']} passes is:")
+		sudoku.print_grid(solution["solution"])
+
 
 class Beginner:
 	def __init__(self):
 		self.default_values = {
 			"fizzbuzz": 100,
 			"palindrome": ["Madam", "Goody", "I am Mai"],
-			"evens": [11,12,33,19,82,101]
+			"evens": [11, 12, 33, 19, 82, 101]
 		}
 
 	def fizz_buzz(self, n: int = None):
@@ -261,6 +287,9 @@ class Sudoku:
 		]
 
 		self.solving = []
+		self.generate_solving_grid()
+
+		self.grid_solved = False
 
 	def generate_solving_grid(self):
 		for row in self.grid:
@@ -279,7 +308,13 @@ class Sudoku:
 				print("╟" + "─" * 3 + "┼" + "─" * 3 + "┼" + "─" * 3 + "╢")
 			row_str = "║"
 			for j, cell in enumerate(row):
-				row_str += f"{cell}"
+				if isinstance(cell, int):
+					row_str += f"{cell}"
+				else:
+					if len(cell) == 1:
+						row_str += f"{cell[0]}"
+					else:
+						row_str += f"{cell}"
 				if j == 2 or j == 5:
 					row_str += "│"
 			row_str += "║"
@@ -296,13 +331,59 @@ class Sudoku:
 
 		return confirmed_nums
 
-	def check_cell(self, pos_x, pos_y, grid):
-		cell_row = grid[pos_x]
+	def check_cell(self, pos_x, pos_y):
+		if len(self.solving[pos_y][pos_x]) == 1:
+			return
+
+		cell_row = self.solving[pos_y]
 		cell_col = []
-		for row in grid:
-			cell_col.append(row[pos_y])
+
+		for row in self.solving:
+			cell_col.append(row[pos_x])
+
+		box_x = math.floor(pos_x/3)
+		box_y = math.floor(pos_y/3)
 
 		cell_box = []
+		for i in range(box_y*3, box_y*3+3):
+			for j in range(box_x*3, box_x*3+3):
+				cell_box.append(self.solving[i][j])
+
+		confirmed_set = set()
+
+		conf_row = self.get_confirmed_numbers(cell_row)
+		conf_col = self.get_confirmed_numbers(cell_col)
+		conf_box = self.get_confirmed_numbers(cell_box)
+
+		confirmed_set.update(conf_row)
+		confirmed_set.update(conf_col)
+		confirmed_set.update(conf_box)
+
+		modified_list = list(set(self.solving[pos_y][pos_x]) - confirmed_set)
+
+		self.solving[pos_y][pos_x] = modified_list
+
+	def run_grid(self):
+		for x in range(9):
+			for y in range(9):
+				self.check_cell(x, y)
+
+	def solve_grid(self):
+		passes = 0
+		while not self.grid_solved:
+			passes += 1
+			self.run_grid()
+			self.grid_solved = True
+			for x in range(9):
+				for y in range(9):
+					if len(self.solving[y][x]) > 1:
+						self.grid_solved = False
+						continue
+		return {
+			"input": self.grid,
+			"solution": self.solving,
+			"passes": passes
+		}
 
 
 if __name__ == "__main__":
@@ -310,8 +391,6 @@ if __name__ == "__main__":
 	beginner = Beginner()
 	intermediate = Intermediate()
 	sudoku = Sudoku()
-	sudoku.print_grid()
-	input()
 	while ui.ui_active:
 		ui.clear_terminal()
 		ui.print_chose_difficulty()
@@ -354,3 +433,14 @@ if __name__ == "__main__":
 						user_input = ui.get_user_input()
 						ui.print_solution(intermediate.get_prime_factors(user_input))
 						input("Press Enter to continue...")
+			case "advanced":
+				ui.print_advanced_menu()
+				advanced_choice = ui.get_advanced_choice()
+				ui.clear_terminal()
+				match advanced_choice:
+					case "back":
+						pass
+					case "sudoku":
+						ui.print_sudoku_solution(sudoku.solve_grid())
+						input("Press Enter to continue...")
+
