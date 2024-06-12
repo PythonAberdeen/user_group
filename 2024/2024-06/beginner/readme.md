@@ -5,13 +5,14 @@
 Write a program that prints the numbers from 1 to 100. But for multiples of three, print "Fizz" instead of the number, and for the multiples of five, print "Buzz". For numbers which are multiples of both three and five, print "FizzBuzz".
 
 **Example Output:**
-
+<pre>
 1
 2
 Fizz
 4
 Buzz
 Fizz
+</pre>pre>
 
 **Hint:** Use the modulo operator `%` to determine if a number is divisible by another number.
 
@@ -24,9 +25,11 @@ Fizz
 Write a program that checks if a given string is a palindrome. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward (ignoring spaces, punctuation, and capitalization).
 
 **Example Input:**
+<pre>
 "Madam"
 "Goody"
 "I am Mai"
+</pre>
 
 **Hint:** Use string methods like `.lower()` and `.replace()` to preprocess the string before checking for palindromes.
 
