@@ -5,16 +5,18 @@
 Write a program that checks if two given strings are anagrams of each other. An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
 
 **Example Input:**
-
+<pre>
 String 1: "listen"
 String 2: "silent"
-
+</pre>
 **Example Output:**
 True
 
 **Example Input:**
+<pre>
 String 3: "Netherlands"
 String 4: "Neanderthals"
+</pre>
 
 **Example Output:**
 False
