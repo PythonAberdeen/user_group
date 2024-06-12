@@ -12,7 +12,7 @@ Fizz
 4
 Buzz
 Fizz
-</pre>pre>
+</pre>
 
 **Hint:** Use the modulo operator `%` to determine if a number is divisible by another number.
 
