@@ -31,6 +31,13 @@ Write a program that checks if a given string is a palindrome. A palindrome is a
 "I am Mai"
 </pre>
 
+** Example Output:**
+<pre>
+True
+False
+True
+</pre> 
+
 **Hint:** Use string methods like `.lower()` and `.replace()` to preprocess the string before checking for palindromes.
 
 ---
@@ -44,6 +51,10 @@ Write a program that calculates the sum of all even numbers in a given list of i
 **Example Input:**
 
 [11,12,33,19,82,101]
+
+** Example Output:**
+
+94
 
 
 **Hint:** Use a loop to iterate through the list and an `if` statement to check if a number is even.
