@@ -115,31 +115,31 @@ class SudokuGrid:
 
     def solve(self) -> bool:
 
+        if self.is_invalid():
+            return False
+
         first_empty = self.first_empty()
-
         if first_empty is None:
-            return self.is_solved()
+            return True
 
-        assert self[first_empty] is None
         for candidate in range(1, 10):
             self[first_empty] = candidate
-            solved = self.solve()
-            if solved:
+            if self.solve():
                 return True
         del self[first_empty]
         return False
 
 
 EXAMPLE = [
-    [5, 3, 4, 6, 7, 8, 9, 1, 2],
-    [6, 7, 2, 0, 9, 5, 3, 0, 8],
-    [1, 9, 8, 3, 4, 2, 5, 6, 7],
-    [8, 5, 0, 7, 6, 1, 4, 2, 3],
-    [4, 2, 6, 8, 5, 3, 7, 9, 1],
-    [7, 1, 3, 0, 2, 4, 8, 5, 6],
-    [9, 6, 1, 5, 3, 7, 2, 8, 4],
-    [2, 8, 7, 4, 1, 9, 6, 3, 0],
-    [3, 0, 5, 2, 8, 6, 1, 7, 9]
+    [5, 3, 0, 0, 7, 0, 0, 0, 0],
+    [6, 0, 0, 1, 9, 5, 0, 0, 0],
+    [0, 9, 8, 0, 0, 0, 0, 6, 0],
+    [8, 0, 0, 0, 6, 0, 0, 0, 3],
+    [4, 0, 0, 8, 0, 3, 0, 0, 1],
+    [7, 0, 0, 0, 2, 0, 0, 0, 6],
+    [0, 6, 0, 0, 0, 0, 2, 8, 0],
+    [0, 0, 0, 4, 1, 9, 0, 0, 5],
+    [0, 0, 0, 0, 8, 0, 0, 7, 9]
 ]
 
 
@@ -165,4 +165,7 @@ def main() -> None:
 
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print('Cancelled')
