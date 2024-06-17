@@ -26,7 +26,7 @@ pycountry == 19.8.18
 
 # covid19World/covid19.py: 20
 # covid19World/util_functions.py: 16
-scikit_learn == 0.21.3
+scikit_learn == 1.5.0
 
 # covid19World/covid19.py: 9
 # covid19World/util_functions.py: 5
