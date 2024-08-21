@@ -4,11 +4,11 @@
 
 **Coding Challenge evening**
 
-*Wednesday, 12th June 2024*, 6:00 pm to 9:00 pm
+*Wednesday, 11th September 2024*, 6:00 pm to 9:00 pm
 
 Register for a physical space or online ticket: [Tickets on Tito](https://ti.to/code-the-city/)
 
-[Coding challenges](https://github.com/PythonAberdeen/user_group/tree/master/2024/2024-06)
+[Coding challenges](https://github.com/PythonAberdeen/user_group/tree/master/2024/2024-09)
 
 ## Event Format
 
