@@ -6,6 +6,8 @@ Here we're looking at 75 ball (US) BINGO.
 
 Labelling the 5 columns B, I, N, G and O: "B" can have 5 numbers from the range 1–15, "I" 5 numbers from the range 16–30, "N" 4 numbers from the range 31–45 (the centre square in the card is always a free spot), "G" 5 numbers from 46–60, and "O" 5 numbers from 61–75.
 
+![340px-Bingo_card_-_02.jpg](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Bingo_card_-_02.jpg/340px-Bingo_card_-_02.jpg)
+
 Make a function to generate BINGO cards.
 
 ## Side quest: testing
@@ -25,6 +27,8 @@ What could you add to the cards to allow you to verify that a card was one gener
 90 ball BINGO cards follow different rules.
 
 https://en.wikipedia.org/wiki/Bingo_(British_version)
+
+![440px-9x3_bingo_ticket.svg.png](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/9x3_bingo_ticket.svg/440px-9x3_bingo_ticket.svg.png)
 
 Make a function to generate them.
 
