@@ -10,7 +10,7 @@ def generate_bingo_column(
     column: np.array
 
     if is_middle:
-        column = np.random.choice   (options, size=4, replace=False)
+        column = np.random.choice(options, size=4, replace=False)
         column = np.insert(column, 2, 0)
     else:
         column = np.random.choice(options, size=5, replace=False)
