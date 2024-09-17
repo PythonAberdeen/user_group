@@ -41,5 +41,5 @@ def print_bingo_card(card: np.array) -> None:
 
 
 if __name__ == "__main__":
-    x = generate_bingo_card()
-    print_bingo_card(x)
+    card = generate_bingo_card()
+    print_bingo_card(card)
