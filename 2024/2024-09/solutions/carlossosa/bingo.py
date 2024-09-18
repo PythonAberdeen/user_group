@@ -10,10 +10,10 @@ def generate_bingo_column(
     column: np.array
 
     if is_middle:
-        column = np.random.choice(options, size=4)
+        column = np.random.choice(options, size=4, replace=False)
         column = np.insert(column, 2, 0)
     else:
-        column = np.random.choice(options, size=5)
+        column = np.random.choice(options, size=5, replace=False)
 
     return column
 
@@ -41,5 +41,5 @@ def print_bingo_card(card: np.array) -> None:
 
 
 if __name__ == "__main__":
-    x = generate_bingo_card()
-    print_bingo_card(x)
+    card = generate_bingo_card()
+    print_bingo_card(card)
