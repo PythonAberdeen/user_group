@@ -33,4 +33,4 @@ scikit_learn == 0.21.3
 seaborn == 0.9.0
 
 # covid19World/covid19.py: 26
-streamlit == 0.57.3
+streamlit == 1.37.0
