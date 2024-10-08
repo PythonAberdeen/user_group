@@ -11,6 +11,6 @@ MarkupSafe==2.1.5
 python-dateutil==2.9.0.post0
 s3transfer==0.10.2
 six==1.16.0
-urllib3==1.26.0
+urllib3==1.26.20
 Werkzeug==3.0.4
 zipp==3.20.2
