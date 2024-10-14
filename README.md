@@ -2,13 +2,13 @@
 
 ## Next Event
 
-**Coding Challenge evening**
+**"Christmas Coding Challenges" - Dr Lee A. Christie**
 
-*Wednesday, 11th September 2024*, 6:00 pm to 9:00 pm
+*Wednesday, 13th November 2024*, 6 pm to 9 pm.
 
-Register for a physical space or online ticket: [Tickets on Tito](https://ti.to/code-the-city/apug-sep-2024)
+Register for a physical space or online ticket: [Tickets on Tito]([https://ti.to/code-the-city/apug-sep-2024](https://ti.to/code-the-city/apug-nov-2024))
 
-[Coding challenges](https://github.com/PythonAberdeen/user_group/tree/master/2024/2024-09)
+Puzzles will be available on 13th November 2024 at 6pm.
 
 ## Event Format
 
@@ -26,7 +26,7 @@ The usual format is:
 
 ## Social Media
 
-- [Slack](https://join.slack.com/t/codethecity/shared_invite/zt-ebfpmtdt-wMnHGebBCNJTCEInaYCwNw)
+- [Slack](https://bit.ly/join-ctc-slack)
 - [𝕏](https://twitter.com/pythonaberdeen)
 - [Website](https://pythonaberdeen.github.io)
 
