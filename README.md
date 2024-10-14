@@ -4,6 +4,10 @@
 
 **"Christmas Coding Challenges" - Dr Lee A. Christie**
 
+Join us for a festive edition of the Aberdeen Python User Group (APUG) this November! We're getting into the holiday spirit early with unique Christmas-themed coding challenges inspired by the popular Advent of Code.
+
+Whether you're a seasoned coder or just starting out, bring your laptop, your coding skills, and meet up with other Python coders in Aberdeen.
+
 *Wednesday, 13th November 2024*, 6 pm to 9 pm.
 
 Register for a physical space or online ticket: [Tickets on Tito]([https://ti.to/code-the-city/apug-sep-2024](https://ti.to/code-the-city/apug-nov-2024))
